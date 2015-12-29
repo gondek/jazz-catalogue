@@ -1,0 +1,2 @@
+- todo: add credits, licenses
+- blog seo / sitemap
