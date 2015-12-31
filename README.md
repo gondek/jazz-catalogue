@@ -1,2 +1,2 @@
 - todo: add credits, licenses
-- blog seo / sitemap
+- blog seo / sitemap, markup semantics
