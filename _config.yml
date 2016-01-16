@@ -4,11 +4,3 @@ description: >
   links to performances, and other recommended resources.
 baseurl: ""
 url: "http://jazz.gondek.ca"
-
-nav:
-  - title: Albums
-    url: "/"
-  - title: Resources
-    url: "/resources/"
-  - title: About
-    url: "/about/"

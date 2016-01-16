@@ -1,2 +1,7 @@
 - todo: add credits, licenses
 - blog seo / sitemap, markup semantics
+- fix <title>
+- add individual item review dates
+- footer:
+  - add last updated date
+- sort by title / day

@@ -1,5 +1,52 @@
 @import 'bootstrap';
 
+$street-grey: #353432;
+$off-white: #e9e9e9;
+$retro-green: #94ba65;
+
+body {
+  background: $street-grey;
+}
+
 header {
   font-family: 'Righteous', cursive;
+  padding: 1em 0;
+
+  h1 {
+    margin: 0;
+  }
+
+  a {
+    color: $off-white;
+
+    &:hover {
+      color: $retro-green;
+      text-decoration: none;
+    }
+  }
+}
+
+.nav > li > a {
+  &:hover,
+  &.active {
+    background: $retro-green;
+    color: $street-grey;
+  }
+}
+
+.main {
+  background: $off-white;
+  padding: 15*2px 0;
+}
+
+.album {
+  img {
+    max-width: 100%;
+  }
+}
+
+.page {
+  h2 {
+    margin-top: 0;
+  }
 }

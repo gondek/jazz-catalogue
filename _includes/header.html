@@ -1,15 +1,16 @@
 <header>
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-        <h1>{{ site.title }}</h1>
+      <div class="col-sm-7">
+        <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
       </div>
-      <div class="col-md-6">
+      <div class="col-sm-5">
+
         <nav>
-          <ul class="nav nav-pills">
-          {% for item in site.nav %}
-            <li><a {% if item.url == page.url %}class="active"{% endif %} href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>
-          {% endfor %}
+          <ul class="nav nav-pills navbar-right">
+            <li><a {% if "Resources" != page.title and "About" != page.title %}class="active"{% endif %} href="{{ site.baseurl }}/">Albums</a></li>
+            <li><a {% if "Resources" == page.title %}class="active"{% endif %} href="{{ site.baseurl }}/resources/">Resources</a></li>
+            <li><a {% if "About" == page.title %}class="active"{% endif %} href="{{ site.baseurl }}/about/">About</a></li>
           </ul>
         </nav>
       </div>
