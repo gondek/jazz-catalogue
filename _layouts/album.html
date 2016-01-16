@@ -7,8 +7,13 @@ layout: default
   </div>
   <div class="col-md-9">
     <h2>{{ page.title }}</h2>
-    <p>{{ page.date | date: "%b %-d, %Y" }}</p>
-    {% assign artist = site.data.artists[page.artist] %}<p>Artist: <a href="{{ artist.wiki }}">{{ artist.name }}</a></p>
+    {% assign artist = site.data.artists[page.artist] %}
+    <div class="album-artist">By <a href="{{ artist.wiki }}">{{ artist.name }}</a></div>
+    <div class="album-meta">
+      Added: <strong>{{ page.date | date: "%b %-d, %Y" }}</strong>
+       -
+    </div>
+
     <div>
       {{ content }}
     </div>
