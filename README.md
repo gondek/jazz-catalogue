@@ -4,4 +4,5 @@
 - add individual item review dates
 - footer:
   - add last updated date
-- sort by title / day
+- add youtube listen links
+- add quotes to albums

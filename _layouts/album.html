@@ -6,15 +6,26 @@ layout: default
     <img src="{{ "/assets/covers/" | prepend: site.baseurl }}{{ page.slug }}.jpg" />
   </div>
   <div class="col-md-9">
-    <h2>{{ page.title }}</h2>
-    {% assign artist = site.data.artists[page.artist] %}
-    <div class="album-artist">By <a href="{{ artist.wiki }}">{{ artist.name }}</a></div>
-    <div class="album-meta">
-      AllMusic Review
+    <div class="album-header">
+      <h2>{{ page.title }}</h2>
+      {% assign artist = site.data.artists[page.artist] %}
+      <h3 class="album-artist">{{ artist.name }}</h3>
     </div>
 
-    <div>
+    <div class="album-review">
       {{ content }}
     </div>
+
+    <div class="links">
+      <p>Album:
+        <a href="{{ page.allmusic }}">AllMusic Review</a>
+        <a href="{{ page.wikipedia }}">Wikpedia Article</a>
+      </p>
+      <p>{{ artist.name }}:
+        <a href="{{ artist.allmusic }}">AllMusic Page</a>
+        <a href="{{ artist.wikipedia }}">Wikpedia Article</a>
+      </p>
+    </div>
+
   </div>
 </div>

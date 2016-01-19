@@ -4,13 +4,13 @@ layout: default
 <div class="row">
   {% for post in site.posts %}
     <div class="col-lg-4 col-sm-6">
-      <div class="album-summary clearfix">
+      <a class="album-card clearfix" href="{{ post.url | prepend: site.baseurl }}">
         <img src="{{ "/assets/thumbnails/" | prepend: site.baseurl }}{{ post.slug }}.jpg" alt="Album cover for {{ post.title }}"/>
-        <div class="album-meta">
-          <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-          {% assign artist = site.data.artists[post.artist] %}<p>{{ artist.name }}</p>
-        </div>
-      </div>
+        <span class="album-card-info">
+          <h2>{% if post.short-title %}{{ post.short-title }}{% else %}{{ post.title }}{% endif %}</h2>
+          {% assign artist = site.data.artists[post.artist] %}<span class="album-card-artist">{{ artist.name }}</span>
+        </span>
+      </a>
     </div>
   {% endfor %}
 </div>

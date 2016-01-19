@@ -2,7 +2,7 @@
 title: Mingus Ah Um
 layout: album
 artist: mingus
-amg: http://www.allmusic.com/album/mingus-ah-um-mw0000188531
+allmusic: http://www.allmusic.com/album/mingus-ah-um-mw0000188531
 wikipedia: https://en.wikipedia.org/wiki/Mingus_Ah_Um
 ---
 
