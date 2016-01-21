@@ -1,8 +1,15 @@
-- todo: add credits, licenses
+- todo: add credits, licenses (libraries, fair-use images, etc)
 - blog seo / sitemap, markup semantics
 - fix <title>
+- review reviews
 - add individual item review dates
 - footer:
   - add last updated date
 - add youtube listen links
 - add quotes to albums
+- switch/replace jazz.gondek.ca
+- update this readme
+- add CI tasks:
+  - ensure images exist for each post
+  - traverse website for 404s
+  - ensure each post has manadatory fields
