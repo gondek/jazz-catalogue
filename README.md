@@ -1,6 +1,7 @@
 # Alex's Jazz Catalogue
 
 ## Todo
+- check album liner notes for quotes
 - add favicon
 - review the reviews
 - include sitemap
