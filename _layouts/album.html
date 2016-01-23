@@ -1,31 +1,24 @@
 ---
 layout: default
 ---
+{% assign artist = site.data.artists[page.artist] %}
 <div class="album row">
   <div class="col-md-3">
     <img src="{{ "/assets/covers/" | prepend: site.baseurl }}{{ page.slug }}.jpg" />
+    <ul class="links">
+      <li><a href="{{ page.allmusic }}">{% if page.short-title %}{{ page.short-title }}{% else %}{{ page.title }}{% endif %}  on AllMusic</a></li>
+      <li><a href="{{ page.wikipedia }}">{% if page.short-title %}{{ page.short-title }}{% else %}{{ page.title }}{% endif %} on Wikipedia</a></li>
+      <li><a href="{{ artist.allmusic }}">{{ artist.name }} on AllMusic</a></li>
+      <li><a href="{{ artist.wikpedia }}">{{ artist.name }} on Wikipedia</a></li>
+    </ul>
   </div>
   <div class="col-md-9">
     <div class="album-header">
       <h2>{{ page.title }}</h2>
-      {% assign artist = site.data.artists[page.artist] %}
       <h3 class="album-artist">{{ artist.name }}</h3>
     </div>
-
     <div class="album-review">
       {{ content }}
     </div>
-
-    <div class="links">
-      <p>Album:
-        <a href="{{ page.allmusic }}">AllMusic Review</a>
-        <a href="{{ page.wikipedia }}">Wikpedia Article</a>
-      </p>
-      <p>{{ artist.name }}:
-        <a href="{{ artist.allmusic }}">AllMusic Page</a>
-        <a href="{{ artist.wikipedia }}">Wikpedia Article</a>
-      </p>
-    </div>
-
   </div>
 </div>

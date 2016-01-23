@@ -1,15 +1,14 @@
-- todo: add credits, licenses (libraries, fair-use images, etc)
-- blog seo / sitemap, markup semantics
-- fix <title>
-- review reviews
-- add individual item review dates
-- footer:
-  - add last updated date
+# Alex's Jazz Catalogue
+
+## Todo
+- add favicon
+- review the reviews
+- include sitemap
+- review markup semantics
 - add youtube listen links
-- add quotes to albums
 - switch/replace jazz.gondek.ca
 - update this readme
 - add CI tasks:
   - ensure images exist for each post
   - traverse website for 404s
-  - ensure each post has manadatory fields
+  - ensure each post has mandatory fields

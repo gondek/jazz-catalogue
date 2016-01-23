@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: Jazz Resources & Media
 layout: page
 ---
 

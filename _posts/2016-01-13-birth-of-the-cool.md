@@ -4,8 +4,8 @@ layout: album
 artist: milesdavis
 allmusic: http://www.allmusic.com/album/birth-of-the-cool-mw0000111184
 wikipedia: https://en.wikipedia.org/wiki/Birth_of_the_Cool
-quote: "I wanted the instruments to sound like human voices singing ... and they did."
+quote: "I wanted the instruments to sound like human voices singing... and they did."
 quote-source: "Miles Davis"
 ---
 
-A great collection of short, cool and gentle songs. It's excellent when I want to listen to something fun but also relaxing.
+A collection of short, cool and gentle songs recorded over the course of a year. It's excellent when I want to listen to something light-hearted and relaxing.

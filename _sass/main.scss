@@ -12,10 +12,12 @@ $retro-green: #94ba65;
 
 body {
   background: $street-grey;
+  color: $off-white;
 }
 
 .main {
   background: $off-white;
+  color: $street-grey;
   padding: 15*2px 0;
 }
 
@@ -113,5 +115,30 @@ header {
 .page {
   h2 {
     margin-top: 0;
+  }
+}
+
+// Footer
+// =========================================
+
+footer {
+  color: darken($off-white, 40%);
+  font-size: .9em;
+  padding: 1em 0;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: darken($off-white, 20%);
+
+    &:hover {
+      color: $off-white;
+    }
+  }
+
+  .right {
+    text-align: right;
   }
 }
