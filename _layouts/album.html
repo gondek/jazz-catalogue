@@ -17,6 +17,12 @@ layout: default
       <h2>{{ page.title }}</h2>
       <h3 class="album-artist">{{ artist.name }}</h3>
     </div>
+    <div class="album-quote">
+      <blockquote>
+        <p>{{ page.quote }}</p>
+        <footer>{{ page.quote-source }}</footer>
+      </blockquote>
+    </div>
     <div class="album-review">
       {{ content }}
     </div>
