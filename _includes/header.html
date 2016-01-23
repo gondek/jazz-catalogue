@@ -5,12 +5,11 @@
         <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
       </div>
       <div class="col-sm-5">
-
         <nav>
           <ul class="nav nav-pills navbar-right">
-            <li><a {% if "Resources" != page.title and "About" != page.title %}class="active"{% endif %} href="{{ site.baseurl }}/">Albums</a></li>
-            <li><a {% if "Resources" == page.title %}class="active"{% endif %} href="{{ site.baseurl }}/resources/">Resources</a></li>
-            <li><a {% if "About" == page.title %}class="active"{% endif %} href="{{ site.baseurl }}/about/">About</a></li>
+            <li><a {% if "resources" != page.id and "about" != page.id %}class="active"{% endif %} href="{{ site.baseurl }}/">Albums</a></li>
+            <li><a {% if "resources" == page.id %}class="active"{% endif %} href="{{ site.baseurl }}/resources">Resources</a></li>
+            <li><a {% if "about" == page.id %}class="active"{% endif %} href="{{ site.baseurl }}/about">About</a></li>
           </ul>
         </nav>
       </div>

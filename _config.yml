@@ -5,3 +5,4 @@ description: >
 baseurl: ""
 url: "http://jazz.gondek.ca"
 alex_url: "http://alex.gondek.ca"
+permalink: "/:title"
