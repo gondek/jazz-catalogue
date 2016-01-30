@@ -83,6 +83,7 @@ header {
   }
 
   .album-card-title {
+    font-size: 1.6em;
     margin: 0;
   }
 
@@ -92,8 +93,8 @@ header {
 
   &:hover,
   &:active {
-    background: darken($off-white, 15%);
-    color: lighten($street-grey, 15%);
+    background: lighten($retro-green, 20%);
+    color: darken($street-grey, 100%);
     text-decoration: none;
   }
 }
@@ -171,7 +172,7 @@ header {
   .links {
     list-style: none;
     padding: 0;
-    
+
     li {
       float: left;
       width: 33%;
