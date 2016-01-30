@@ -32,6 +32,11 @@ header {
 
   h1 {
     margin: 0;
+
+    @media (max-width: $screen-sm) {
+      margin-bottom: 10px;
+      text-align: center;
+    }
   }
 
   a {
@@ -42,22 +47,17 @@ header {
       text-decoration: none;
     }
   }
+}
 
-  @media (max-width: $screen-sm) {
-    h1 {
-      margin-bottom: 10px;
-      text-align: center;
-    }
+@media (max-width: $screen-sm) {
+  nav {
+    text-align: center;
+  }
 
-    nav {
-      text-align: center;
-    }
-
-    .nav-pills > li,
-    .nav > li {
-      display: inline-block;
-      float: none;
-    }
+  .nav-pills > li,
+  .nav > li {
+    display: inline-block;
+    float: none;
   }
 }
 
@@ -82,7 +82,7 @@ header {
     margin-right: 15px;
   }
 
-  h2 {
+  .album-card-title {
     margin: 0;
   }
 
@@ -107,15 +107,23 @@ header {
     max-width: 100%;
   }
 
-  h2 {
+  .album-title {
     font-size: 3em;
     margin: 0 0 0 -.1em;
   }
 
-  h3 {
-    color: lighten($street-grey, 20%);
+  .album-artist {
     font-size: 1.5em;
     margin: 0;
+
+    a {
+      color: lighten($street-grey, 20%);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   }
 
   .album-header,
@@ -157,6 +165,16 @@ header {
 
     footer::before {
       content: '- ';
+    }
+  }
+
+  .links {
+    list-style: none;
+    padding: 0;
+    
+    li {
+      float: left;
+      width: 33%;
     }
   }
 }
