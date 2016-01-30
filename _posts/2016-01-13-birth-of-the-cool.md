@@ -4,6 +4,7 @@ layout: album
 artist: milesdavis
 allmusic: http://www.allmusic.com/album/birth-of-the-cool-mw0000111184
 wikipedia: https://en.wikipedia.org/wiki/Birth_of_the_Cool
+youtube: https://www.youtube.com/watch?v=hdmQ6cwgKgk
 quote: "I wanted the instruments to sound like human voices singing... and they did."
 quote-source: "Miles Davis"
 ---
