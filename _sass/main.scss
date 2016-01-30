@@ -7,6 +7,8 @@ $street-grey: #353432;
 $off-white: #e9e9e9;
 $retro-green: #94ba65;
 
+$screen-sm: 768px;
+
 // Core
 // =========================================
 
@@ -26,7 +28,7 @@ body {
 
 header {
   font-family: 'Righteous', cursive;
-  padding: 1em 0;
+  padding: 1em 0 1.1em;
 
   h1 {
     margin: 0;
@@ -38,6 +40,23 @@ header {
     &:hover {
       color: $retro-green;
       text-decoration: none;
+    }
+  }
+
+  @media (max-width: $screen-sm) {
+    h1 {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+    }
+
+    .nav-pills > li,
+    .nav > li {
+      display: inline-block;
+      float: none;
     }
   }
 }
