@@ -9,4 +9,4 @@ quote: "I wanted the instruments to sound like human voices singing... and they 
 quote-source: "Miles Davis"
 ---
 
-A collection of short, cool and gentle songs recorded over the course of a year. It's excellent when I want to listen to something light-hearted and relaxing.
+A collection of short, cool and gentle songs recorded over the course of a year by a nonet (the size of the group, in addition to the presence of a French horn and tuba, gives it a special sound). It's excellent when I want to listen to something light-hearted and relaxing.
