@@ -6615,15 +6615,27 @@ body {
 
 header {
   font-family: 'Righteous', cursive;
-  padding: 1em 0; }
+  padding: 1em 0 1.1em; }
   header h1 {
     margin: 0; }
+    @media (max-width: 768px) {
+      header h1 {
+        margin-bottom: 10px;
+        text-align: center; } }
   header a {
     color: #e9e9e9; }
     header a:hover {
       color: #94ba65;
       text-decoration: none; }
 
+@media (max-width: 768px) {
+  nav {
+    text-align: center; }
+
+  .nav-pills > li,
+  .nav > li {
+    display: inline-block;
+    float: none; } }
 .nav > li > a:hover, .nav > li > a.active {
   background: #94ba65;
   color: #353432; }
@@ -6635,29 +6647,59 @@ header {
   .album-card img {
     float: left;
     margin-right: 15px; }
-  .album-card h2 {
+  .album-card .album-card-title {
+    font-size: 1.6em;
     margin: 0; }
   .album-card .album-card-artist {
     font-size: 1.1em; }
   .album-card:hover, .album-card:active {
-    background: #c3c3c3;
-    color: #5c5b57;
+    background: #c5daab;
+    color: black;
     text-decoration: none; }
 
 .album img {
   max-width: 100%; }
-.album h2 {
+.album .album-title {
   font-size: 3em;
   margin: 0 0 0 -.1em; }
-.album h3 {
-  font-style: italic;
+.album .album-artist {
+  font-size: 1.5em;
   margin: 0; }
+  .album .album-artist a {
+    color: #696764;
+    text-decoration: none; }
+  .album .album-artist a:hover {
+    text-decoration: underline; }
 .album .album-header,
+.album .album-quote,
 .album .album-review {
-  margin-bottom: 2em; }
+  margin-bottom: 30px; }
 .album a {
   color: #353432;
   text-decoration: underline; }
+.album .album-review {
+  font-size: 1.2em; }
+.album blockquote {
+  background: #f6f6f6;
+  border-left: 5px solid #d0d0d0;
+  font-style: italic;
+  padding: 20px; }
+  .album blockquote p {
+    margin-bottom: 5px; }
+  .album blockquote p::before {
+    content: '\201C'; }
+  .album blockquote p::after {
+    content: '\201D'; }
+  .album blockquote footer {
+    padding: 0; }
+  .album blockquote footer::before {
+    content: '- '; }
+.album .links {
+  list-style: none;
+  padding: 0; }
+  .album .links li {
+    float: left;
+    width: 33%; }
 
 .page h2 {
   margin-top: 0; }
@@ -6670,7 +6712,7 @@ footer {
     margin: 0; }
   footer a {
     color: #b6b6b6; }
-    footer a:hover {
+    footer a:hover, footer a:active {
       color: #e9e9e9; }
   footer .right {
     text-align: right; }
