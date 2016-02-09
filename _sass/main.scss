@@ -27,10 +27,10 @@ body {
 // =========================================
 
 header {
-  font-family: 'Righteous', cursive;
   padding: 1em 0 1.1em;
 
   h1 {
+    font-family: 'Lobster Two', cursive;
     margin: 0;
 
     @media (max-width: $screen-sm) {
