@@ -9,6 +9,7 @@
 - add youtube listen links
 - switch/replace jazz.gondek.ca
 - update this readme
+- add related videos to albums
 - add CI tasks:
   - ensure images exist for each post
   - traverse website for 404s
