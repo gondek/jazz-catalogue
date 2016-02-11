@@ -47,6 +47,10 @@ header {
       text-decoration: none;
     }
   }
+
+  nav a {
+    margin: 0 5px;
+  }
 }
 
 @media (max-width: $screen-sm) {
@@ -75,7 +79,7 @@ header {
 .album-card {
   color: $street-grey;
   display: block;
-  padding: 15px;
+  margin: 15px 0;
 
   img {
     float: left;
@@ -83,17 +87,17 @@ header {
   }
 
   .album-card-title {
-    font-size: 1.6em;
-    margin: 0;
+    font-size: 1.7em;
+    margin: 4px 0 0;
   }
 
   .album-card-artist {
-    font-size: 1.1em;
+    color: lighten($street-grey, 15%);
+    font-size: 1.2em;
   }
 
   &:hover,
   &:active {
-    background: lighten($retro-green, 20%);
     color: darken($street-grey, 100%);
     text-decoration: none;
   }
