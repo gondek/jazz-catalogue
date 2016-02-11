@@ -6627,6 +6627,8 @@ header {
     header a:hover {
       color: #94ba65;
       text-decoration: none; }
+  header nav a {
+    margin: 0 5px; }
 
 @media (max-width: 768px) {
   nav {
@@ -6643,17 +6645,17 @@ header {
 .album-card {
   color: #353432;
   display: block;
-  padding: 15px; }
+  margin: 15px 0; }
   .album-card img {
     float: left;
     margin-right: 15px; }
   .album-card .album-card-title {
-    font-size: 1.6em;
-    margin: 0; }
+    font-size: 1.7em;
+    margin: 4px 0 0; }
   .album-card .album-card-artist {
-    font-size: 1.1em; }
+    color: #5c5b57;
+    font-size: 1.2em; }
   .album-card:hover, .album-card:active {
-    background: #c5daab;
     color: black;
     text-decoration: none; }
 
