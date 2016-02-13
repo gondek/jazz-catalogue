@@ -6616,92 +6616,146 @@ body {
 header {
   font-family: 'Righteous', cursive;
   padding: 1em 0 1.1em; }
-  header h1 {
-    margin: 0; }
-    @media (max-width: 768px) {
-      header h1 {
-        margin-bottom: 10px;
-        text-align: center; } }
   header a {
     color: #e9e9e9; }
     header a:hover {
       color: #94ba65;
       text-decoration: none; }
-  header nav a {
-    margin: 0 5px; }
+
+h1 {
+  margin: 0; }
+  @media (max-width: 768px) {
+    h1 {
+      margin-bottom: 10px;
+      text-align: center; } }
+
+.nav > li > a {
+  margin: 0 5px; }
+  .nav > li > a:hover, .nav > li > a.active {
+    background: #94ba65;
+    color: #353432; }
 
 @media (max-width: 768px) {
-  nav {
+  .nav {
     text-align: center; }
 
   .nav-pills > li,
   .nav > li {
     display: inline-block;
     float: none; } }
-.nav > li > a:hover, .nav > li > a.active {
-  background: #94ba65;
-  color: #353432; }
-
 .album-card {
-  color: #353432;
+  color: #696764;
   display: block;
   margin: 15px 0; }
   .album-card img {
     float: left;
-    margin-right: 15px; }
-  .album-card .album-card-title {
+    margin-right: 13px;
+    opacity: .9; }
+  .album-card h2 {
     font-size: 1.7em;
     margin: 4px 0 0; }
-  .album-card .album-card-artist {
-    color: #5c5b57;
-    font-size: 1.2em; }
+  .album-card h3 {
+    color: #84817c;
+    font-size: 1.2em;
+    margin: 0; }
   .album-card:hover, .album-card:active {
     color: black;
     text-decoration: none; }
+    .album-card:hover .album-card-artist, .album-card:active .album-card-artist {
+      color: #4f4e4b; }
+    .album-card:hover img, .album-card:active img {
+      opacity: 1; }
 
-.album img {
-  max-width: 100%; }
-.album .album-title {
-  font-size: 3em;
-  margin: 0 0 0 -.1em; }
-.album .album-artist {
-  font-size: 1.5em;
-  margin: 0; }
-  .album .album-artist a {
-    color: #696764;
-    text-decoration: none; }
-  .album .album-artist a:hover {
-    text-decoration: underline; }
-.album .album-header,
-.album .album-quote,
-.album .album-review {
-  margin-bottom: 30px; }
-.album a {
-  color: #353432;
-  text-decoration: underline; }
-.album .album-review {
-  font-size: 1.2em; }
-.album blockquote {
-  background: #f6f6f6;
-  border-left: 5px solid #d0d0d0;
-  font-style: italic;
-  padding: 20px; }
-  .album blockquote p {
-    margin-bottom: 5px; }
-  .album blockquote p::before {
-    content: '\201C'; }
-  .album blockquote p::after {
-    content: '\201D'; }
-  .album blockquote footer {
-    padding: 0; }
-  .album blockquote footer::before {
-    content: '- '; }
-.album .links {
+@media (max-width: 768px) {
+  .album-card {
+    margin: 25px auto;
+    width: 400px; }
+    .album-card img {
+      float: right; } }
+.album {
+  margin: 1em 0; }
+  .album img {
+    max-width: 100%; }
+  .album h2 {
+    font-size: 2.9em;
+    margin: 0 0 0 -2px; }
+  .album h3 {
+    font-size: 1.7em;
+    margin: 0; }
+    .album h3 a {
+      color: #777470;
+      text-decoration: none; }
+    .album h3 a:hover {
+      text-decoration: underline; }
+
+.album-quote {
+  display: table-cell;
+  height: 160px;
+  vertical-align: middle; }
+
+@media (max-width: 992px) {
+  .album-cover,
+  .album-header {
+    text-align: center; }
+
+  .album-header {
+    margin-top: 15px; } }
+.album-links {
   list-style: none;
   padding: 0; }
-  .album .links li {
-    float: left;
-    width: 33%; }
+  .album-links li {
+    display: inline-block; }
+  .album-links a {
+    border-radius: 5px;
+    color: #e9e9e9;
+    display: inline-block;
+    font-size: .8em;
+    font-weight: 700;
+    margin-right: 10px;
+    padding: 7px 10px; }
+    .album-links a:hover {
+      text-decoration: none; }
+  .album-links .youtube {
+    background: #ce7e80; }
+    .album-links .youtube:hover {
+      background: #b31217; }
+  .album-links .wikipedia {
+    background: #7d7d7d; }
+    .album-links .wikipedia:hover {
+      background: #111; }
+  .album-links .allmusic {
+    background: #87cae5; }
+    .album-links .allmusic:hover {
+      background: #25aae1; }
+
+blockquote {
+  background: #fbfbfb;
+  border-left: 5px solid #c3c3c3;
+  font-style: italic;
+  margin: 0;
+  padding: 20px; }
+  blockquote p {
+    margin-bottom: 5px; }
+  blockquote p::before {
+    content: '\201C'; }
+  blockquote p::after {
+    content: '\201D'; }
+  blockquote footer {
+    padding: 0; }
+  blockquote footer::before {
+    content: '- '; }
+
+.album-review {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin-top: 15px; }
+  .album-review a {
+    color: #353432;
+    text-decoration: underline; }
+    .album-review a:hover {
+      color: #9c9a97; }
+  .album-review p {
+    margin-bottom: 15px; }
 
 .page h2 {
   margin-top: 0; }
