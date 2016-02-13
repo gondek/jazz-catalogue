@@ -1,6 +1,9 @@
 language: ruby
 rvm:
-- 2.1
+- 2.2
+
+before_setup:
+  - sudo apt-get install -y exiftool
 
 script: ./_scripts/test.sh
 
