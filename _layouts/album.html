@@ -23,20 +23,20 @@ layout: default
         </blockquote>
       </div>
 
-      <ul class="links clearfix">
-        <li><a href="{{ page.wikipedia }}" class="wikipedia">Wikipedia Article</a></li>
-        <li><a href="{{ page.allmusic }}" class="allmusic">AllMusic Review</a></li>
-        <li><a href="{{ page.youtube }}" class="youtube">Listen on YouTube</a></li>
+      <ul class="album-links clearfix">
+        <li><a class="wikipedia" href="{{ page.wikipedia }}" class="wikipedia">Wikipedia Article</a></li>
+        <li><a class="allmusic" href="{{ page.allmusic }}" class="allmusic">AllMusic Review</a></li>
+        <li><a class="youtube" href="{{ page.youtube }}" class="youtube">Listen on YouTube</a></li>
       </ul>
 
     </div>
 
   </div>
-  <div class="row lower">
+  <div class="row album-review">
     <div class="col-md-3">
     </div>
 
-    <div class="col-md-9 album-review">
+    <div class="col-md-9">
       {{ content }}
     </div>
 
