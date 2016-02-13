@@ -2,28 +2,43 @@
 layout: default
 ---
 {% assign artist = site.data.artists[page.artist] %}
-<div class="album row">
-  <div class="col-md-3">
-    <img src="{{ "/assets/covers/" | prepend: site.baseurl }}{{ page.slug }}.jpg" />
-    <ul class="links clearfix">
-      <li><a href="{{ page.wikipedia }}" class="wikipedia">Wikipedia</a></li>
-      <li><a href="{{ page.allmusic }}" class="allmusic">AllMusic</a></li>
-      <li><a href="{{ page.youtube }}" class="youtube">YouTube</a></li>
-    </ul>
+<div class="album">
+  <div class="row">
+
+    <div class="col-md-3 album-cover">
+      <img alt="{{ page.title }} album cover" src="{{ "/assets/covers/" | prepend: site.baseurl }}{{ page.slug }}.jpg" />
+    </div>
+
+    <div class="col-md-9">
+
+      <div class="album-header">
+        <h2>{{ page.title }}</h2>
+        <h3><a href="{{ artist.wikipedia }}">{{ artist.name }}</a></h3>
+      </div>
+
+      <div class="album-quote">
+        <blockquote>
+          <p>{{ page.quote }}</p>
+          <footer>{{ page.quote-source }}</footer>
+        </blockquote>
+      </div>
+
+      <ul class="links clearfix">
+        <li><a href="{{ page.wikipedia }}" class="wikipedia">Wikipedia Article</a></li>
+        <li><a href="{{ page.allmusic }}" class="allmusic">AllMusic Review</a></li>
+        <li><a href="{{ page.youtube }}" class="youtube">Listen on YouTube</a></li>
+      </ul>
+
+    </div>
+
   </div>
-  <div class="col-md-9">
-    <div class="album-header">
-      <h2 class="album-title">{{ page.title }}</h2>
-      <h3 class="album-artist"><a href="{{ artist.wikipedia }}">{{ artist.name }}</a></h3>
+  <div class="row lower">
+    <div class="col-md-3">
     </div>
-    <div class="album-quote">
-      <blockquote>
-        <p>{{ page.quote }}</p>
-        <footer>{{ page.quote-source }}</footer>
-      </blockquote>
-    </div>
-    <div class="album-review">
+
+    <div class="col-md-9 album-review">
       {{ content }}
     </div>
+
   </div>
 </div>
