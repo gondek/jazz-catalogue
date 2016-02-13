@@ -2,11 +2,7 @@
 set -e
 cd `dirname $0`/../
 
-./_scripts/thumbnails.sh
-echo "Thumbnails Generated!"
-
-jekyll build --quiet
-echo "Jekyll Site Built!"
+./_scripts/build.sh
 
 if [[ \"`git status --porcelain`\" != \"\" ]]; then
   echo "Working directory is not clean: Stage and commit changes!"
