@@ -2,8 +2,10 @@ language: ruby
 rvm:
 - 2.2
 
-before_setup:
-  - sudo apt-get install -y exiftool
+addons:
+  apt:
+    packages:
+    - libimage-exiftool-perl
 
 script: ./_scripts/test.sh
 
