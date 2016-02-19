@@ -9,10 +9,10 @@ if [[ \"`git status --porcelain`\" != \"\" ]]; then
   exit 1
 fi
 
+MSG=$(git log --format=%B -n 1 HEAD)
 git checkout gh-pages
 cp -r _site/* .
 git add -A
-MSG=$(git log --format=%B -n 1 HEAD)
 git commit -m "$MSG"
 echo -e "Site files commited! Pushing: ....\n\n"
 
