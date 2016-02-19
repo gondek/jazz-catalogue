@@ -5,6 +5,7 @@
 ## Todo
 - review the reviews
 - add logo
+- do mobile test
 - include sitemap
 - review markup semantics
 - switch/replace jazz.gondek.ca
