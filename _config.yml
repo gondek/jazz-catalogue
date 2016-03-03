@@ -6,4 +6,4 @@ baseurl: ""
 url: "http://jazz-beta.gondek.ca"
 alex_url: "http://alex.gondek.ca"
 permalink: "/:title"
-exclude: ['README.md', 'vendor']
+exclude: ['README.md', 'vendor', 'Gemfile']
