@@ -6758,7 +6758,11 @@ blockquote {
     margin-bottom: 15px; }
 
 .page h2 {
-  margin-top: 0; }
+  margin: 15px 0; }
+.page .resource {
+  margin: 15px 0; }
+  .page .resource h3 {
+    margin: 0 0 15px; }
 
 footer {
   color: #838383;
