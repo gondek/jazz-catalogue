@@ -3,10 +3,14 @@ title: Jazz Resources &amp; Media
 layout: page
 id: resources
 ---
+<h2>{{ page.title }}</h2>
 <div class="row">
   {% for resource_data in site.data.resources %}{% assign resource = resource_data[1] %}
     <div class="col-lg-4 col-sm-6">
-      {{ resource.name | markdownify }}
+      <div class="resource">
+        <h3>{{ resource.name }}</h3>
+        {{ resource.description | markdownify }}
+      </div>
     </div>
   {% endfor %}
 </div>
