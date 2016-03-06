@@ -18,3 +18,4 @@
   - ensure each post has mandatory fields
 - include backlist? (listened-to list)
 - spell check
+- check that links match up
