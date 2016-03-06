@@ -16,3 +16,4 @@
   - ensure images exist for each post
   - traverse outgoing links and check youtube videos
   - ensure each post has mandatory fields
+- include backlist? (listened-to list)
