@@ -24,9 +24,9 @@ layout: default
       </div>
 
       <ul class="album-links clearfix">
-        <li><a class="wikipedia" href="{{ page.wikipedia }}">Wikipedia Article</a></li>
-        <li><a class="allmusic"  href="{{ page.allmusic }}">AllMusic Review</a></li>
-        <li><a class="youtube"   href="{{ page.youtube }}" >Listen on YouTube</a></li>
+        {% if page.wikipedia %}<li><a class="wikipedia" href="{{ page.wikipedia }}">Wikipedia Article</a></li>{% endif %}
+        {% if page.allmusic  %}<li><a class="allmusic"  href="{{ page.allmusic }}">AllMusic Review</a></li>{% endif %}
+        {% if page.youtube   %}<li><a class="youtube"   href="{{ page.youtube }}" >Listen on YouTube</a></li>{% endif %}
       </ul>
 
     </div>
