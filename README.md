@@ -8,7 +8,7 @@
 - do mobile test
 - include sitemap
 - review markup semantics
-- switch/replace jazz.gondek.ca
+- switch/replace jazz.gondek.ca (and update GH repo settings link)
 - update this readme
 - add related videos to albums
 - add CI tasks:
