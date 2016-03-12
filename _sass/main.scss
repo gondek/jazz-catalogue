@@ -238,6 +238,15 @@ blockquote {
 
   footer {
     padding: 0;
+
+    a {
+      color: lighten($street-grey, 25%);
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: $street-grey;
+    }
   }
 
   footer::before {
