@@ -6742,6 +6742,11 @@ blockquote {
     content: '\201D'; }
   blockquote footer {
     padding: 0; }
+    blockquote footer a {
+      color: #777470;
+      text-decoration: underline; }
+    blockquote footer a:hover {
+      color: #353432; }
   blockquote footer::before {
     content: '- '; }
 
