@@ -79,39 +79,33 @@ h1 {
 // =========================================
 
 .album-card {
-  color: lighten($street-grey, 20%);
+  color: $street-grey;
   display: block;
-  margin: 15px 0;
+  margin: 5px 0;
+  padding: 10px;
+  transition: .5s;
 
   img {
     float: left;
     margin-right: 13px;
-    opacity: .9;
   }
 
   h2 {
-    font-size: 1.7em;
+    ;
+    font-size: 1.6em;
     margin: 4px 0 0;
   }
 
   h3 {
-    color: lighten($street-grey, 30%);
     font-size: 1.2em;
     margin: 0;
   }
 
   &:hover,
   &:active {
-    color: darken($street-grey, 100%);
+    background: transparentize($retro-green, .5);
+    color: $street-grey;
     text-decoration: none;
-
-    .album-card-artist {
-      color: lighten($street-grey, 10%);
-    }
-
-    img {
-      opacity: 1;
-    }
   }
 }
 
@@ -273,23 +267,26 @@ blockquote {
   }
 }
 
-// General Content Page
+// Other Pages
 // =========================================
 
 .page {
   h2 {
     margin: 15px 0;
   }
+}
 
+.resource {
+  margin: 15px 0;
 
-  .resource {
-    margin: 15px 0;
-
-    h3 {
-      margin: 0 0 15px;
-    }
+  h3 {
+    margin: 0 0 15px;
   }
 
+  img {
+    float: left;
+    margin: 0 15px 10px 0;
+  }
 }
 
 // Footer

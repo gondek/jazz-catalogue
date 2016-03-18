@@ -6,9 +6,10 @@ id: resources
 <h2>{{ page.title }}</h2>
 <div class="row">
   {% for resource_data in site.data.resources %}{% assign resource = resource_data[1] %}
-    <div class="col-lg-4 col-sm-6">
-      <div class="resource">
+    <div class="col-md-6">
+      <div class="resource clearfix">
         <h3>{{ resource.name }}</h3>
+        {% if resource.image %}<img src="{{ "/assets/images/" | prepend: site.baseurl }}{{ resource.image }}" />{% endif %}
         {{ resource.description | markdownify }}
       </div>
     </div>
