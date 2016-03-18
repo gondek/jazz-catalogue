@@ -9,4 +9,4 @@ quote: "This one is another high-caloric cooker."
 quote-source: "Ira Gitler, talking about track 3, \"Break City\""
 ---
 
-This album definitely lives up to its name! It has some really amazing interplay between soloists, along with some intense piano work by Silver. The album alternates between fast, "high-caloric", songs, and slower, more contemplative work and is the debut of Silver's composition, "Sister Sadie", a jazz standard.
+This album definitely lives up to its name! It has some really amazing interplay between soloists, along with some intense piano work by Silver. The album alternates between fast "high-caloric" songs, and slower, more contemplative work, and is the debut of Silver's composition, "Sister Sadie", a jazz standard.
