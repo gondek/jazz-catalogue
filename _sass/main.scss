@@ -112,7 +112,7 @@ h1 {
 @media (max-width: $screen-sm) {
   .album-card {
     margin: 25px auto;
-    width: 400px;
+    max-width: 400px;
 
     img {
       float: right;
