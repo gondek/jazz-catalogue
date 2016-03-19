@@ -6644,32 +6644,29 @@ h1 {
     display: inline-block;
     float: none; } }
 .album-card {
-  color: #696764;
+  color: #353432;
   display: block;
-  margin: 15px 0; }
+  margin: 5px 0;
+  padding: 10px;
+  transition: .5s; }
   .album-card img {
     float: left;
-    margin-right: 13px;
-    opacity: .9; }
+    margin-right: 13px; }
   .album-card h2 {
-    font-size: 1.7em;
+    font-size: 1.6em;
     margin: 4px 0 0; }
   .album-card h3 {
-    color: #84817c;
     font-size: 1.2em;
     margin: 0; }
   .album-card:hover, .album-card:active {
-    color: black;
+    background: rgba(148, 186, 101, 0.5);
+    color: #353432;
     text-decoration: none; }
-    .album-card:hover .album-card-artist, .album-card:active .album-card-artist {
-      color: #4f4e4b; }
-    .album-card:hover img, .album-card:active img {
-      opacity: 1; }
 
 @media (max-width: 768px) {
   .album-card {
     margin: 25px auto;
-    width: 400px; }
+    max-width: 400px; }
     .album-card img {
       float: right; } }
 .album {
@@ -6764,10 +6761,14 @@ blockquote {
 
 .page h2 {
   margin: 15px 0; }
-.page .resource {
+
+.resource {
   margin: 15px 0; }
-  .page .resource h3 {
+  .resource h3 {
     margin: 0 0 15px; }
+  .resource img {
+    float: left;
+    margin: 0 15px 10px 0; }
 
 footer {
   color: #838383;
