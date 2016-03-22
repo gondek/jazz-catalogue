@@ -13,5 +13,10 @@ id: resources
         {{ resource.description | markdownify }}
       </div>
     </div>
+
+  {% assign mod = forloop.index | modulo: 2 %}{% if mod == 0%}
+</div>
+<div class="row">
+  {% endif %}
   {% endfor %}
 </div>

@@ -19,3 +19,8 @@
 - include backlist? (listened-to list)
 - spell check
 - check that links match up
+- improve resources page
+- add under "movies"
+  - https://en.wikipedia.org/wiki/Thelonious_Monk:_Straight,_No_Chaser
+  - https://en.wikipedia.org/wiki/Charles_Mingus:_Triumph_of_the_Underdog
+  - https://en.wikipedia.org/wiki/Bird_%28film%29

@@ -9,7 +9,7 @@ layout: default
         <img src="{{ "/assets/thumbnails/" | prepend: site.baseurl }}{{ post.slug }}.jpg" alt="Album cover for {{ post.title }}"/>
         <div class="album-card-info">
           <h2>{% if post.short-title %}{{ post.short-title }}{% else %}{{ post.title }}{% endif %}</h2>
-          {% assign artist = site.data.artists[post.artist] %}<h3>{{ artist.name }}</h3>
+          {% assign artist = site.data.artists[post.artist] %}<h3>{% if artist.short-name %}{{ artist.short-name }}{% else %}{{ artist.name }}{% endif %}</h3>
         </div>
       </a>
     </div>
