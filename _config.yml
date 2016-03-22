@@ -3,7 +3,7 @@ description: >
   Alex's exploration of the world of jazz, along with album reviews,
   links to performances, and other recommended resources.
 baseurl: ""
-url: "http://jazz-beta.gondek.ca"
+url: "http://jazz.gondek.ca"
 alex_url: "http://alex.gondek.ca"
 permalink: "/:title"
 exclude: ['README.md', 'vendor', 'Gemfile']
