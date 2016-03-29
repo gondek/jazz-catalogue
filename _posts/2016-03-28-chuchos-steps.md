@@ -1,0 +1,10 @@
+---
+title: Chucho's Steps
+layout: album
+artist: chuchovaldes
+allmusic: hhttp://www.allmusic.com/album/chuchos-steps-mw0002014239
+wikipedia: https://en.wikipedia.org/wiki/Chucho's_Steps
+youtube: https://www.youtube.com/playlist?list=PL8392B3FD0D03EB9F
+quote: "Little by little I’ve been able to fulfill a commitment with my public. I’m not standing still within one certain style because there’s always more to do."
+quote-source: "Chucho Valdés"
+---
