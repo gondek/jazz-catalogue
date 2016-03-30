@@ -4,6 +4,7 @@
 
 ## Todo
 - review the reviews
+- review the quotes (possibly add non-album-specific ones)
 - add logo
 - do mobile test
 - include sitemap
