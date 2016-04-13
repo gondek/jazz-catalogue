@@ -8,7 +8,6 @@
         <nav>
           <ul class="nav nav-pills navbar-right">
             <li><a {% if "resources" != page.id and "about" != page.id %}class="active"{% endif %} href="{{ site.baseurl }}/">Albums</a></li>
-            <li><a {% if "resources" == page.id %}class="active"{% endif %} href="{{ site.baseurl }}/resources">Resources</a></li>
             <li><a {% if "about" == page.id %}class="active"{% endif %} href="{{ site.baseurl }}/about">About</a></li>
           </ul>
         </nav>

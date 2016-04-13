@@ -88,10 +88,12 @@ h1 {
   img {
     float: left;
     margin-right: 13px;
+    max-height: 60px;
+    max-width: 60px;
+    overflow: hidden;
   }
 
   h2 {
-    ;
     font-size: 1.6em;
     margin: 4px 0 0;
   }
@@ -116,6 +118,11 @@ h1 {
 
     img {
       float: right;
+      margin-right: 0;
+    }
+
+    h2 {
+      margin-top: 7px;
     }
   }
 }
@@ -276,16 +283,19 @@ blockquote {
   }
 }
 
-.resource {
-  margin: 15px 0;
-
-  h3 {
-    margin: 0 0 15px;
+.resources {
+  ul {
+    list-style: none;
+    padding: 0;
   }
 
-  img {
-    float: left;
-    margin: 0 15px 10px 0;
+  li {
+    margin-bottom: 1em;
+
+    span {
+      display: block;
+      font-weight: 800;
+    }
   }
 }
 
@@ -312,5 +322,14 @@ footer {
 
   .right {
     text-align: right;
+  }
+
+  @media (max-width: $screen-sm) {
+    text-align: center;
+
+    .right {
+      margin-top: 1em;
+      text-align: center;
+    }
   }
 }
