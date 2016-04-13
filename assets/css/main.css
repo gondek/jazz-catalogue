@@ -6651,7 +6651,10 @@ h1 {
   transition: .5s; }
   .album-card img {
     float: left;
-    margin-right: 13px; }
+    margin-right: 13px;
+    max-height: 60px;
+    max-width: 60px;
+    overflow: hidden; }
   .album-card h2 {
     font-size: 1.6em;
     margin: 4px 0 0; }
@@ -6668,7 +6671,10 @@ h1 {
     margin: 25px auto;
     max-width: 400px; }
     .album-card img {
-      float: right; } }
+      float: right;
+      margin-right: 0; }
+    .album-card h2 {
+      margin-top: 7px; } }
 .album {
   margin: 1em 0; }
   .album img {
@@ -6762,13 +6768,14 @@ blockquote {
 .page h2 {
   margin: 15px 0; }
 
-.resource {
-  margin: 15px 0; }
-  .resource h3 {
-    margin: 0 0 15px; }
-  .resource img {
-    float: left;
-    margin: 0 15px 10px 0; }
+.resources ul {
+  list-style: none;
+  padding: 0; }
+.resources li {
+  margin-bottom: 1em; }
+  .resources li span {
+    display: block;
+    font-weight: 800; }
 
 footer {
   color: #838383;
@@ -6782,3 +6789,9 @@ footer {
       color: #e9e9e9; }
   footer .right {
     text-align: right; }
+  @media (max-width: 768px) {
+    footer {
+      text-align: center; }
+      footer .right {
+        margin-top: 1em;
+        text-align: center; } }
