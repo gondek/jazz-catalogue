@@ -13,22 +13,15 @@ layout: default
 
       <div class="album-header">
         <h2>{{ page.title }}</h2>
-        <h3><a href="{{ artist.wikipedia }}">{{ artist.name }}</a></h3>
+        <div>
+          <h3><a href="{{ artist.wikipedia }}">{{ artist.name }}</a></h3>
+          <ul class="album-links">
+            {% if page.wikipedia %}<li><a class="wikipedia" href="{{ page.wikipedia }}">Wikipedia Article</a></li>{% endif %}
+            {% if page.allmusic  %}<li><a class="allmusic"  href="{{ page.allmusic }}">AllMusic Review</a></li>{% endif %}
+            {% if page.youtube   %}<li><a class="youtube"   href="{{ page.youtube }}" >Listen on YouTube</a></li>{% endif %}
+          </ul>
+        </div>
       </div>
-
-      <div class="album-quote">
-        <blockquote>
-          <p>{{ page.quote }}</p>
-          <footer>{{ page.quote-source }}</footer>
-        </blockquote>
-      </div>
-
-      <ul class="album-links clearfix">
-        {% if page.wikipedia %}<li><a class="wikipedia" href="{{ page.wikipedia }}">Wikipedia Article</a></li>{% endif %}
-        {% if page.allmusic  %}<li><a class="allmusic"  href="{{ page.allmusic }}">AllMusic Review</a></li>{% endif %}
-        {% if page.youtube   %}<li><a class="youtube"   href="{{ page.youtube }}" >Listen on YouTube</a></li>{% endif %}
-      </ul>
-
     </div>
 
   </div>

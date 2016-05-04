@@ -158,12 +158,6 @@ h1 {
   }
 }
 
-.album-quote {
-  display: table-cell;
-  height: 160px;
-  vertical-align: middle;
-}
-
 @media (max-width: $screen-md) {
   .album-cover,
   .album-header {
@@ -215,43 +209,6 @@ h1 {
 
   .allmusic {
     @include make-album-link($allmusic-blue);
-  }
-}
-
-blockquote {
-  background: lighten($off-white, 7%);
-  border-left: 5px solid darken($off-white, 15%);
-  font-style: italic;
-  margin: 0;
-  padding: 20px;
-
-  p {
-    margin-bottom: 5px;
-  }
-
-  p::before {
-    content: '\201C';
-  }
-
-  p::after {
-    content: '\201D';
-  }
-
-  footer {
-    padding: 0;
-
-    a {
-      color: lighten($street-grey, 25%);
-      text-decoration: underline;
-    }
-
-    a:hover {
-      color: $street-grey;
-    }
-  }
-
-  footer::before {
-    content: '- ';
   }
 }
 
