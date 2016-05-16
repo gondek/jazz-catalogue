@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/gondek/jazz-catalogue.svg?branch=master)](https://travis-ci.org/gondek/jazz-catalogue)
 
 ## Todo
-- review the reviews
 - add logo (and then add favicon and bookmark thumbnails)
 - do mobile test
 - include sitemap
