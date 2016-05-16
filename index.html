@@ -2,16 +2,23 @@
 layout: default
 ---
 <div class="row">
-  {% assign sorted_posts = (site.posts | sort:'title') %}
-  {% for post in sorted_posts %}
-    <div class="col-lg-4 col-sm-6">
-      <a class="album-card clearfix" href="{{ post.url | prepend: site.baseurl }}">
-        <img src="{{ "/assets/thumbnails/" | prepend: site.baseurl }}{{ post.slug }}.jpg" alt="Album cover for {{ post.title }}"/>
-        <div class="album-card-info">
-          <h2>{% if post.short-title %}{{ post.short-title }}{% else %}{{ post.title }}{% endif %}</h2>
-          {% assign artist = site.data.artists[post.artist] %}<h3>{% if artist.short-name %}{{ artist.short-name }}{% else %}{{ artist.name }}{% endif %}</h3>
-        </div>
-      </a>
+  {% capture albums_list %}{% for album in site.data.albums %}{{ album[0] | prepend: ' ' }}{% endfor %}{% endcapture %}
+  {% assign albums_sorted = albums_list | split:' ' | sort %}
+  {% for album_id in albums_sorted %}{% assign album = site.data.albums[album_id] %}
+  <div class="col-sm-6">
+    <div class="album clearfix">
+      <img class="album-cover" src="{{ "/assets/thumbnails/" | prepend: site.baseurl }}{{ album_id }}.jpg" alt="Album cover for {{ album.title }}"/>
+      <div class="album-info">
+        <h2>{% if album.short-title %}{{ album.short-title }}{% else %}{{ album.title }}{% endif %}</h2>
+        {% assign artist = site.data.artists[album.artist] %}<h3>{% if artist.short-name %}{{ artist.short-name }}{% else %}{{ artist.name }}{% endif %}</h3>
+      </div>
+      <ul class="album-links">
+        {% if album.wikipedia %}<li><a class="wikipedia" href="{{ album.wikipedia }}">Wikipedia</a></li>{% endif %}
+        {% if album.allmusic  %}<li><a class="allmusic"  href="{{ album.allmusic }}">AllMusic</a></li>{% endif %}
+        {% if album.youtube   %}<li><a class="youtube"   href="{{ album.youtube }}" >YouTube</a></li>{% endif %}
+      </ul>
+      <div class=""></div>
     </div>
+  </div>
   {% endfor %}
 </div>

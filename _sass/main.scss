@@ -78,30 +78,10 @@ h1 {
 // Home Page
 // =========================================
 
-.album-card {
-  color: $street-grey;
-  display: block;
-  margin: 5px 0;
-  padding: 10px;
+.album {
+  margin: 10px 0;
+  padding: 15px;
   transition: .5s;
-
-  img {
-    float: left;
-    margin-right: 13px;
-    max-height: 60px;
-    max-width: 60px;
-    overflow: hidden;
-  }
-
-  h2 {
-    font-size: 1.6em;
-    margin: 4px 0 0;
-  }
-
-  h3 {
-    font-size: 1.2em;
-    margin: 0;
-  }
 
   &:hover,
   &:active {
@@ -111,68 +91,30 @@ h1 {
   }
 }
 
-@media (max-width: $screen-sm) {
-  .album-card {
-    margin: 25px auto;
-    max-width: 400px;
-
-    img {
-      float: right;
-      margin-right: 0;
-    }
-
-    h2 {
-      margin-top: 7px;
-    }
-  }
+.album-cover {
+  $size: 100px;
+  float: left;
+  margin-right: 15px;
+  max-height: $size;
+  max-width: $size;
+  overflow: hidden;
 }
 
-
-// Individual Album Page
-// =========================================
-
-.album {
-  margin: 1em 0;
-
-  img {
-    max-width: 100%;
-  }
-
+.album-info {
   h2 {
-    font-size: 2.9em;
-    margin: 0 0 0 -2px;
+    font-size: 2em;
+    margin: 4px 0 0;
   }
 
   h3 {
-    display: inline;
-    font-size: 1.7em;
+    font-size: 1.4em;
     margin: 0;
-
-    a {
-      color: lighten($street-grey, 25%);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
-@media (max-width: $screen-md) {
-  .album-cover,
-  .album-header {
-    text-align: center;
-  }
-
-  .album-header {
-    margin-top: 15px;
   }
 }
 
 .album-links {
+  font-weight: bold;
   list-style: none;
-  margin-top: 3px;
   padding: 0;
 
   li {
@@ -180,24 +122,20 @@ h1 {
   }
 
   a {
-    border-radius: 5px;
+    border-radius: 3px;
     color: $off-white;
     display: inline-block;
-    font-size: 10px;
-    font-weight: 700;
-    margin-right: 5px;
-    padding: 4px 6px;
-
-    &:hover {
-      text-decoration: none;
-    }
+    font-size: .8em;
+    padding: 3px 6px;
+    text-decoration: none;
   }
 
   @mixin make-album-link($base-color) {
-    background: $base-color;
+    background: mix(desaturate($base-color, 30%), $off-white);
+    text-shadow: $base-color;
 
     &:hover {
-      background: mix($base-color, desaturate($off-white, 10%));
+      background: $base-color;
     }
   }
 
@@ -214,26 +152,25 @@ h1 {
   }
 }
 
-.album-review {
-  font-size: 1.2em;
-  line-height: 1.6em;
-  margin-top: 15px;
+@media (max-width: $screen-sm) {
+  .album {
+    margin: 25px auto;
+    max-width: 400px;
 
-  a {
-    color: $street-grey;
-    text-decoration: underline;
-
-    &:hover {
-      color: lighten($street-grey, 40%);
+    img {
+      float: right;
+      margin-right: 0;
     }
-  }
 
-  p {
-    margin-bottom: 15px;
+    h2 {
+      margin-top: 7px;
+    }
   }
 }
 
-// Other Pages
+
+
+// About Page
 // =========================================
 
 .page {

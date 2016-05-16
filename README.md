@@ -4,14 +4,13 @@
 
 ## Todo
 - add logo (and then add favicon and bookmark thumbnails)
+- code review
 - do mobile test
 - include sitemap
 - review markup semantics
 - update this readme
 - add CI tasks:
   - check youtube videos
-  - ensure each post has mandatory fields
-- spell check
 - check that links match up
 - add content to resources page
 - add under "movies"
