@@ -23,7 +23,7 @@ body {
 }
 
 .main {
-  background: $off-white;
+  background: $off-white url('background.png');
   color: $street-grey;
   padding: 15*2px 0;
 }
@@ -78,39 +78,33 @@ h1 {
 // Home Page
 // =========================================
 
-.album {
-  margin: 10px 0;
-  padding: 15px;
-  transition: .5s;
+.album-card {
+  margin: 15px 0;
 
-  &:hover,
-  &:active {
-    background: transparentize($retro-green, .5);
-    color: $street-grey;
-    text-decoration: none;
+  a {
+    display: block;
+    padding: 5px;
+    transition: .5s;
+
+    &:hover,
+    &:active {
+      background: transparentize($retro-green, .5);
+      color: $street-grey;
+      padding: 10px;
+      text-decoration: none;
+    }
+  }
+
+  img {
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+    width: 100%;
   }
 }
 
-.album-cover {
-  $size: 100px;
-  float: left;
-  margin-right: 15px;
-  max-height: $size;
-  max-width: $size;
-  overflow: hidden;
-}
-
-.album-info {
-  h2 {
-    font-size: 2em;
-    margin: 4px 0 0;
-  }
-
-  h3 {
-    font-size: 1.4em;
-    margin: 0;
-  }
-}
+// Album Page
+// =========================================
 
 .album-links {
   font-weight: bold;
