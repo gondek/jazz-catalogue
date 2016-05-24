@@ -4,5 +4,12 @@ description: >
 baseurl: ""
 url: "http://jazz.gondek.ca"
 alex_url: "http://alex.gondek.ca"
+repo_url: "https://github.com/gondek/jazz-catalogue"
 permalink: "/:title"
 exclude: ['README.md', 'vendor', 'Gemfile', 'CNAME']
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "album"
