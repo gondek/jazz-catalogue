@@ -7,7 +7,7 @@ cd `dirname $0`/../
 echo "[PASS 01] Site built correctly!"
 
 # are all album covers 300x300 and contain no metadata?
-for f in assets/_covers/*; do
+for f in assets/covers/*; do
   SIZE=$(exiftool $f | grep "Image Size")
   if [[ "$SIZE" != *"300x300"* ]]
   then

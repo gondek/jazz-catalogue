@@ -4,10 +4,8 @@
 
 ## Todo
 - add logo (and then add favicon and bookmark thumbnails)
-- code review
-- do mobile test
-- include sitemap
-- review markup semantics
+- full code review (semantics, style, assets, scripts, configs)
+- improve mobile layout
 - update this readme
 - add CI tasks:
   - check youtube videos

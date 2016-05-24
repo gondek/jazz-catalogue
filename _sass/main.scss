@@ -98,7 +98,6 @@ h1 {
 
   img {
     margin: 0 auto;
-    max-width: 300px;
     overflow: hidden;
     width: 100%;
   }
@@ -127,6 +126,10 @@ h1 {
     max-width: 300px;
     width: 100%;
   }
+
+  @media (max-width: $screen-md) {
+    text-align: center;
+  }
 }
 
 .album-links {
@@ -136,6 +139,7 @@ h1 {
 
   li {
     display: inline-block;
+    margin: 0 0 4px;
   }
 
   a {
@@ -168,12 +172,6 @@ h1 {
     @include make-album-link($allmusic-blue);
   }
 }
-
-@media (max-width: $screen-sm) {
-
-}
-
-
 
 // About Page
 // =========================================
