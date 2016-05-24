@@ -6603,13 +6603,12 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-/*# sourceMappingURL=bootstrap.css.map */
 body {
   background: #353432;
   color: #e9e9e9; }
 
 .main {
-  background: #e9e9e9;
+  background: #e9e9e9 url("background.png");
   color: #353432;
   padding: 30px 0; }
 
@@ -6644,138 +6643,72 @@ h1 {
     display: inline-block;
     float: none; } }
 .album-card {
-  color: #353432;
-  display: block;
-  margin: 5px 0;
-  padding: 10px;
-  transition: .5s; }
-  .album-card img {
-    float: left;
-    margin-right: 13px;
-    max-height: 60px;
-    max-width: 60px;
-    overflow: hidden; }
-  .album-card h2 {
-    font-size: 1.6em;
-    margin: 4px 0 0; }
-  .album-card h3 {
-    font-size: 1.2em;
-    margin: 0; }
-  .album-card:hover, .album-card:active {
-    background: rgba(148, 186, 101, 0.5);
-    color: #353432;
-    text-decoration: none; }
-
-@media (max-width: 768px) {
-  .album-card {
-    margin: 25px auto;
-    max-width: 400px; }
-    .album-card img {
-      float: right;
-      margin-right: 0; }
-    .album-card h2 {
-      margin-top: 7px; } }
-.album {
-  margin: 1em 0; }
-  .album img {
-    max-width: 100%; }
-  .album h2 {
-    font-size: 2.9em;
-    margin: 0 0 0 -2px; }
-  .album h3 {
-    font-size: 1.7em;
-    margin: 0; }
-    .album h3 a {
-      color: #777470;
+  margin: 15px 0; }
+  .album-card a {
+    display: block;
+    padding: 5px;
+    transition: .5s; }
+    .album-card a:hover, .album-card a:active {
+      background: rgba(148, 186, 101, 0.5);
+      color: #353432;
+      padding: 10px;
       text-decoration: none; }
-    .album h3 a:hover {
-      text-decoration: underline; }
+  .album-card img {
+    margin: 0 auto;
+    max-width: 300px;
+    overflow: hidden;
+    width: 100%; }
 
-.album-quote {
-  display: table-cell;
-  height: 160px;
-  vertical-align: middle; }
+.album-page h2 {
+  font-size: 3.2em;
+  line-height: .9em;
+  margin: 0; }
+.album-page h3 {
+  font-size: 1.6em;
+  margin: 0 0 .5em .2em; }
+  .album-page h3 a {
+    color: #353432; }
+.album-page img {
+  max-width: 300px;
+  width: 100%; }
 
-@media (max-width: 992px) {
-  .album-cover,
-  .album-header {
-    text-align: center; }
-
-  .album-header {
-    margin-top: 15px; } }
 .album-links {
+  font-weight: bold;
   list-style: none;
   padding: 0; }
   .album-links li {
     display: inline-block; }
   .album-links a {
-    border-radius: 5px;
+    border-radius: 3px;
     color: #e9e9e9;
     display: inline-block;
     font-size: .8em;
-    font-weight: 700;
-    margin-right: 10px;
-    padding: 7px 10px; }
-    .album-links a:hover {
-      text-decoration: none; }
+    padding: 3px 6px;
+    text-decoration: none; }
   .album-links .youtube {
-    background: #ce7e80; }
+    background: #bf8d8e;
+    text-shadow: #b31217; }
     .album-links .youtube:hover {
       background: #b31217; }
   .album-links .wikipedia {
-    background: #7d7d7d; }
+    background: #7d7d7d;
+    text-shadow: #111; }
     .album-links .wikipedia:hover {
       background: #111; }
   .album-links .allmusic {
-    background: #87cae5; }
+    background: #9ac2d3;
+    text-shadow: #25aae1; }
     .album-links .allmusic:hover {
       background: #25aae1; }
 
-blockquote {
-  background: #fbfbfb;
-  border-left: 5px solid #c3c3c3;
-  font-style: italic;
-  margin: 0;
-  padding: 20px; }
-  blockquote p {
-    margin-bottom: 5px; }
-  blockquote p::before {
-    content: '\201C'; }
-  blockquote p::after {
-    content: '\201D'; }
-  blockquote footer {
-    padding: 0; }
-    blockquote footer a {
-      color: #777470;
-      text-decoration: underline; }
-    blockquote footer a:hover {
-      color: #353432; }
-  blockquote footer::before {
-    content: '- '; }
-
-.album-review {
-  font-size: 1.2em;
-  line-height: 1.6em;
-  margin-top: 15px; }
-  .album-review a {
-    color: #353432;
-    text-decoration: underline; }
-    .album-review a:hover {
-      color: #9c9a97; }
-  .album-review p {
-    margin-bottom: 15px; }
-
 .page h2 {
   margin: 15px 0; }
-
-.resources ul {
-  list-style: none;
-  padding: 0; }
-.resources li {
+.page h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 0 0 .2em; }
+.page .resource {
   margin-bottom: 1em; }
-  .resources li span {
-    display: block;
-    font-weight: 800; }
 
 footer {
   color: #838383;
