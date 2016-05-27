@@ -9,8 +9,6 @@ id: about
 
     <p>Originally when asked for jazz recommendations, I would send people a long list of youtube links. It eventually became unwieldy, so I organized it into this website.</p>
 
-    <p>All the albums listed here are ones that I keep in my library. If an album is not here, I either have not listened to it, or I did not feel like adding it to my library.</p>
-
     <p>I am always looking to broaden my musical horizons, so I would be glad to hear your listening suggestions. Feel free to contact me through my <a href="{{ site.alex_url }}">main website</a>.</p>
   </div>
   <div class="col-sm-6">
@@ -21,20 +19,24 @@ id: about
   </div>
 </div>
 
+<h2>Performances and Videos of Interest</h2>
+
+<ul class="video-links">
+  {% for video in site.data.videos %}
+  <li><a href="{{ video.link }}">{{ video.title }}:</a> {{ video.description }}</li>
+  {% endfor %}
+</ul>
+
 <h2>Recommended Books and Movies</h2>
 <div class="row">
   <div class="col-sm-6">
-
-      <div class="resource">
-        <h3>Jazz: A Film by Ken Burns</h3>
-        Running at over 1000 minutes, <a href="https://en.wikipedia.org/wiki/Jazz_%28TV_series%29">this 10-part documentary series</a> contains tons of information and interesting stories. Although it's treatment of post-50s material is somewhat unbalanced, it does a great job covering the beginnings of jazz up through the start of bebop. It's a bit of a time investment, but I definitely think it's worth it.
-      </div>
-
+    {% include resource.html resource=site.data.resources.jazz_film %}
+    {% include resource.html resource=site.data.resources.amg_jazz %}
+    {% include resource.html resource=site.data.resources.mingus_movie %}
   </div>
   <div class="col-sm-6">
-        <div class="resource">
-          <h3>Miles: The Autobiography</h3>
-          Very raw, opinionated, and lots of fun, <a href="http://www.goodreads.com/book/show/829313.Miles">Miles' Autobiography</a> had me laughing out loud within the first few pages. Aside from Miles' interesting opinions on jazz music (both his own and that of others), Miles talks candidly about his personal struggles and shares anecdotes about his time spent with Dizzy Gillespie, Charlie Parker, John Coltrane, Herbie Hancock, and other musicians.
-        </div>
+    {% include resource.html resource=site.data.resources.miles_book %}
+    {% include resource.html resource=site.data.resources.bird_movie %}
+    {% include resource.html resource=site.data.resources.monk_movie %}
   </div>
 </div>
