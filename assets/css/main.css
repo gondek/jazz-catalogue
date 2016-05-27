@@ -6711,7 +6711,9 @@ h1 {
   font-weight: 700;
   margin: 0 0 .2em; }
 .page .resource {
-  margin-bottom: 1em; }
+  margin-bottom: 2em; }
+.page .video-links {
+  padding: 10px 0 20px 30px; }
 
 footer {
   color: #838383;
