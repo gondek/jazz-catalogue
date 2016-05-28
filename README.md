@@ -7,7 +7,5 @@
 - full code review (semantics, style, assets, scripts, configs)
 - improve mobile layout
 - update this readme
-- add CI tasks:
-  - check youtube videos
 - check that links match up
 - add content to resources page

@@ -6,13 +6,15 @@ branches:
   only:
     - master
 
-addons:
-  apt:
-    packages:
-    - libimage-exiftool-perl
-
-script: ./_scripts/test.sh
+script:
+  - ./_scripts/test.sh
 
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+addons:
+  apt:
+    packages:
+    - libimage-exiftool-perl
+    - ack-grep

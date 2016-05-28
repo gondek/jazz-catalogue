@@ -4,7 +4,7 @@ cd `dirname $0`/../
 
 # does the site build?
 ./_scripts/build.sh >/dev/null
-echo "[PASS 01] Site built correctly!"
+echo "[PASS 01] Site built correctly! -----------------------------------------"
 
 # are all album covers 300x300 and contain no metadata?
 for f in assets/covers/*; do
@@ -21,8 +21,12 @@ then
   echo -e "[FAIL 02] Images contain metadata:\n $METADATA";
   exit 1;
 fi
-echo "[PASS 02] Images are correctly formatted"
+echo "[PASS 02] Images are correctly formatted --------------------------------"
 
 # does the site HTML validate?
 htmlproofer --assume-extension --check-html ./_site
-echo "[PASS 03] Site markup, links, and styling passed validation"
+echo "[PASS 03] Site markup and links passed validation -----------------------"
+
+# are all the youtube links still available?
+./_scripts/check_youtube.sh
+echo "[PASS 04] All youtube links are working ---------------------------------"
