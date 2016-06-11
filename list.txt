@@ -1,0 +1,48 @@
+---
+---
+================================================================================
+                  Alex's Music Collection (as of {{ site.time | date: "%b %d, %Y" }})
+================================================================================
+{% comment %}This is a raw file. See the generated one at http://jazz.gondek.ca/list.txt{% endcomment %}
+
+# Jazz Catalogue
+--------------------------------------------------------------------------------{% assign sorted_albums = (site.posts | sort:'title') %}{% for album in sorted_albums %}{% assign title_length = album.title | size %}{% assign artist_name = site.data.artists[album.artist].name %}{% assign artist_length = artist_name | size %}{% assign padding = 76 | minus: artist_length | minus: title_length %}
+- {{ album.title }}{% for num in (1..padding) %}{{ ' ' }}{% endfor %}({{ artist_name }}){% endfor %}
+
+
+# Other (Non-Jazz) Albums
+--------------------------------------------------------------------------------
+- Buena Vista Social Club (1997)                       (Buena Vista Social Club)
+- My Neighbor Totoro                                          (Movie Soundtrack)
+- Sakamichi no Apollon                                        (Anime Soundtrack)
+- Spirited Away                                               (Movie Soundtrack)
+- SimCity 4                                              (Video Game Soundtrack)
+
+
+# Backlog (albums and artists I plan to check out)
+--------------------------------------------------------------------------------
+- Everybody Digs Bill Evans
+- Sunday at the Village Vanguard (Bill Evans)
+- Explorations (Bill Evans)
+- Heavy Weather (Eric Dolphy)
+- Ornette Coleman
+- Monk & Trane
+- Cory Weeds
+- Bird with Strings
+- Louis Armstrong
+- Wayne Shorter
+- Ella Fitzgerald
+- Art Tatum
+- Mercy, Mercy, Mercy!: Live at "The Club"
+- Mingus Big Band
+- Django Reihardt
+- Return to Forever
+- Mingus Plays Piano
+- Workin' (Miles)
+- Bitches Brew (Miles)
+- In A Silent Way (Miles)
+- Sun Ra
+- Avatar: The Last Airbender Soundtrack
+- Ghibli Jazz
+- Hiroshi Suzuki
+- Nomade Orquestra
