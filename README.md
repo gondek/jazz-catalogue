@@ -13,4 +13,3 @@ Do you like Jazz too? Ping me and let's have a chat!
 - update this readme
 - check that links match up
 - add content to resources page
-  - https://archive.org/details/davidwnivenjazz?sort=-downloads
