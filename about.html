@@ -19,7 +19,9 @@ id: about
   </div>
 </div>
 
-<h2>Performances and Videos of Interest</h2>
+<h2>Performances Videos of Interest</h2>
+
+<p>Searching Youtube can pull up lots of jazz videos, but often some really interesting ones get buried in the mix. Here are some that I think are worth watching:
 
 <ul class="video-links">
   {% for video in site.data.videos %}
@@ -31,12 +33,13 @@ id: about
 <div class="row">
   <div class="col-sm-6">
     {% include resource.html resource=site.data.resources.jazz_film %}
-    {% include resource.html resource=site.data.resources.amg_jazz %}
+    {% include resource.html resource=site.data.resources.bird_movie %}
     {% include resource.html resource=site.data.resources.mingus_movie %}
+    {% include resource.html resource=site.data.resources.niven_collection %}
   </div>
   <div class="col-sm-6">
+    {% include resource.html resource=site.data.resources.amg_jazz %}
     {% include resource.html resource=site.data.resources.miles_book %}
-    {% include resource.html resource=site.data.resources.bird_movie %}
     {% include resource.html resource=site.data.resources.monk_movie %}
   </div>
 </div>

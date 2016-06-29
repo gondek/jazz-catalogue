@@ -11,5 +11,4 @@ Do you like Jazz too? Ping me and let's have a chat!
 - full code review (semantics, style, assets, scripts, configs)
 - improve mobile layout
 - update this readme
-- check that links match up
 - add content to resources page
