@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Jul 01, 2016)
+                  Alex's Music Collection (as of Jul 03, 2016)
 ================================================================================
 
 
@@ -51,6 +51,6 @@
 40 - My Neighbor Totoro                                       (Movie Soundtrack)
 41 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
 42 - Sakamichi no Apollon                                   (TV Show Soundtrack)
-43 - Spirited Away                                            (Movie Soundtrack)
-44 - SimCity 4                                           (Video Game Soundtrack)
+43 - SimCity 4                                           (Video Game Soundtrack)
+44 - Spirited Away                                            (Movie Soundtrack)
 
