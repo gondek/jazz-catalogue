@@ -3,7 +3,7 @@
 ================================================================================
                   Alex's Music Collection (as of {{ site.time | date: "%b %d, %Y" }})
 ================================================================================
-{% comment %}This is a raw file. See the generated one at http://jazz.gondek.ca/list.txt{% endcomment %}{% assign sorted_albums = (site.posts | sort: 'title') %}{% assign count_jazz = sorted_albums | size %}{% assign count_non_jazz = site.data.non_jazz | size %}{% assign total_items = count_jazz | plus: count_non_jazz %}
+{% comment %}This is a raw file. See the generated one at http://jazz.gondek.ca/list.txt{% endcomment %}{% assign sorted_albums = (site.posts | sort: 'title') %}{% assign sorted_non_jazz = (site.data.non_jazz | sort: 'title') %}{% assign count_jazz = sorted_albums | size %}{% assign count_non_jazz = site.data.non_jazz | size %}{% assign total_items = count_jazz | plus: count_non_jazz %}
 
 # Jazz Catalogue
 --------------------------------------------------------------------------------
@@ -11,4 +11,4 @@
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-{% for album in site.data.non_jazz %}{% assign album_index = forloop.index | plus: count_jazz %}{% include list_item.txt title=album.title info=album.description index=album_index max_index=total_items %}{% endfor %}
+{% for album in sorted_non_jazz %}{% assign album_index = forloop.index | plus: count_jazz %}{% include list_item.txt title=album.title info=album.description index=album_index max_index=total_items %}{% endfor %}
