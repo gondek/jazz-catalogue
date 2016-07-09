@@ -4,4 +4,5 @@ _site
 Gemfile
 Gemfile.lock
 tmp
-.jpg_original
+*.jpg_original
+npm-debug.log
