@@ -1,19 +1,26 @@
 #!/bin/bash
 set -e
 
-# for reference (in comparing to a valid page), the following are removed:
-# https://www.youtube.com/watch?v=A9tQHFS83wg
-# https://www.youtube.com/playlist?list=PLOzg9gi8fmMa_CEsJ_GaCU53qex4BHfkG
+check_playlist () {
+  curl -v --silent "$1" 2>&1 | grep -q '<h1 class="pl-header-title"'
+}
 
+check_video () {
+  curl -v --silent "$1" 2>&1 | grep -q 'movie_player'
+}
+
+# verify that the following test URLS fail
+check_video "https://www.youtube.com/watch?v=A9tQHFS83wg" && (echo "Integrity test 1 failed!" && exit 1)
+check_playlist "https://www.youtube.com/playlist?list=PLOzg9gi8fmMa_CEsJ_GaCU53qex4BHfkG" && (echo "Integrity test 2 failed!" && exit 1)
+check_video "https://www.youtube.com/watch?v=mAPMJWpeY3U" && (echo "Integrity test 3 failed!" && exit 1)
+
+# verify the actual urls
 ack-grep -o --nocolor -h --noheading --nobreak "https?:\/\/[\w.]*youtube.com\/[\w?=-]*" _site | while read url; do
-  printf "Checking $url: ";
-
   if [[ $url == *"playlist"* ]]
   then
-    (curl -v --silent "$url" 2>&1 | grep -q '<h1 class="pl-header-title"') || (echo "Failed!" && exit 1)
+    check_playlist "$url" || (echo "  > Fail: $url" && exit 1)
   else
-    (curl -v --silent "$url" 2>&1 | grep -q '<span id="eow-title"') || (echo "Failed!" && exit 1)
+    check_video "$url" || (echo "  > Fail: $url" && exit 1)
   fi
-
-  echo "Passed!"
+  echo "  > Pass: $url"
 done
