@@ -7,8 +7,5 @@
 Do you like Jazz too? Ping me and let's have a chat!
 
 ## Todo
-- add logo (and then add favicon and bookmark thumbnails)
 - full code review (semantics, style, assets, scripts, configs)
-- improve mobile layout
-- update this readme
 - add content to resources page
