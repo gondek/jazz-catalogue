@@ -15,12 +15,13 @@ check_playlist "https://www.youtube.com/playlist?list=PLOzg9gi8fmMa_CEsJ_GaCU53q
 check_video "https://www.youtube.com/watch?v=mAPMJWpeY3U" && (echo "Integrity test 3 failed!" && exit 1)
 
 # verify the actual urls
+EXIT_CODE=0
 ack-grep -o --nocolor -h --noheading --nobreak "https?:\/\/[\w.]*youtube.com\/[\w?=-]*" _site | while read url; do
   if [[ $url == *"playlist"* ]]
   then
-    check_playlist "$url" || (echo "  > Fail: $url" && exit 1)
+    (check_playlist "$url" && echo "  > Pass: $url")  || (echo "  > Fail: $url" && EXIT_CODE=1)
   else
-    check_video "$url" || (echo "  > Fail: $url" && exit 1)
+    (check_video "$url" && echo "  > Pass: $url") || (echo "  > Fail: $url" && EXIT_CODE=1)
   fi
-  echo "  > Pass: $url"
 done
+exit $EXIT_CODE
