@@ -16,12 +16,19 @@ check_video "https://www.youtube.com/watch?v=mAPMJWpeY3U" && (echo "Integrity te
 
 # verify the actual urls
 EXIT_CODE=0
-ack-grep -o --nocolor -h --noheading --nobreak "https?:\/\/[\w.]*youtube.com\/[\w?=-]*" _site | while read url; do
+while read url; do
+  ITEM_CODE=0
   if [[ $url == *"playlist"* ]]
   then
-    (check_playlist "$url" && echo "  > Pass: $url")  || (echo "  > Fail: $url" && EXIT_CODE=1)
+    check_playlist "$url" || ITEM_CODE=1
   else
-    (check_video "$url" && echo "  > Pass: $url") || (echo "  > Fail: $url" && EXIT_CODE=1)
+    check_video "$url" || ITEM_CODE=1
   fi
-done
+  if [[ ITEM_CODE -ne 0 ]]; then
+    echo "!!!> Fail: $url"
+    EXIT_CODE=$ITEM_CODE
+  else
+    echo "   > Pass: $url"
+  fi
+done <<< "$(ack-grep -o --nocolor -h --noheading --nobreak 'https?:\/\/[\w.]*youtube.com\/[\w?=-]*' _site)"
 exit $EXIT_CODE
