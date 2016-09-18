@@ -6643,7 +6643,14 @@ h1 {
     display: inline-block;
     float: none; } }
 .album-card {
-  margin: 15px 0; }
+  margin: 15px 0;
+  min-height: 165px; }
+  @media (max-width: 1200px) {
+    .album-card {
+      min-height: 213px; } }
+  @media (max-width: 992px) {
+    .album-card {
+      min-height: 0; } }
   .album-card a {
     display: block;
     transition: .5s; }
@@ -6653,7 +6660,6 @@ h1 {
       padding: 10px; }
   .album-card img {
     margin: 0 auto;
-    min-height: 165px;
     overflow: hidden;
     transition: .5s;
     width: 100%; }
