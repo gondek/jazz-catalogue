@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Aug 29, 2016)
+                  Alex's Music Collection (as of Sep 18, 2016)
 ================================================================================
 
 
@@ -44,18 +44,19 @@
 37 - The Black Saint and the Sinner Lady                        (Charles Mingus)
 38 - The Complete Sessions                    (Duke Ellington & Louis Armstrong)
 39 - The Sidewinder                                                 (Lee Morgan)
-40 - Time Out                                                     (Dave Brubeck)
-41 - Waltz for Debby                                                (Bill Evans)
-42 - Workin' with the Miles Davis Quintet                          (Miles Davis)
+40 - The Very Best of Frank Sinatra                              (Frank Sinatra)
+41 - Time Out                                                     (Dave Brubeck)
+42 - Waltz for Debby                                                (Bill Evans)
+43 - Workin' with the Miles Davis Quintet                          (Miles Davis)
 
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-43 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
-44 - Kiki's Delivery Service                                  (Movie Soundtrack)
-45 - My Neighbor Totoro                                       (Movie Soundtrack)
-46 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
-47 - Sakamichi no Apollon                                   (TV Show Soundtrack)
-48 - SimCity 4                                           (Video Game Soundtrack)
-49 - Spirited Away                                            (Movie Soundtrack)
+44 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
+45 - Kiki's Delivery Service                                  (Movie Soundtrack)
+46 - My Neighbor Totoro                                       (Movie Soundtrack)
+47 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
+48 - Sakamichi no Apollon                                   (TV Show Soundtrack)
+49 - SimCity 4                                           (Video Game Soundtrack)
+50 - Spirited Away                                            (Movie Soundtrack)
 
