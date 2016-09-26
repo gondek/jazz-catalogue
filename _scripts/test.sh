@@ -7,7 +7,7 @@ echo "[TASK] Building site ----------------------------------------------------"
 # change the config so HTML validation checks against local links
 sed -i "s,url: \"http://jazz.gondek.ca\",url: \"\"," _config.yml
 ./_scripts/build.sh >/dev/null
-git checkout .
+git checkout _config.yml
 echo "[PASS] Site built correctly! --------------------------------------------"
 echo
 
