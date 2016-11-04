@@ -3,6 +3,13 @@ layout: default
 ---
 
 {% assign artist = site.data.artists[page.artist] %}
+{% if artist %}
+  {% assign artistname = artist.name %}
+  {% assign artistwikipedia = artist.wikipedia %}
+{% else %}
+  {% assign artistname = page.artist %}
+  {% assign artistwikipedia = page.wikipedia %}
+{% endif %}
 <div class="album-page">
   <div class="row">
 
@@ -12,7 +19,7 @@ layout: default
 
     <div class="col-md-9">
       <h2>{{ page.title }}</h2>
-      <h3><a href="{{ artist.wikipedia }}">{{ artist.name }}</a></h3>
+      <h3><a href="{{ artistwikipedia }}">{{ artistname }}</a></h3>
       <ul class="album-links">
         {% if page.wikipedia %}<li><a class="wikipedia" href="{{ page.wikipedia }}">Wikipedia Article</a></li>{% endif %}
         {% if page.allmusic  %}<li><a class="allmusic"  href="{{ page.allmusic }}">AllMusic Review</a></li>{% endif %}

@@ -7,7 +7,7 @@
 
 # Jazz Catalogue
 --------------------------------------------------------------------------------
-{% for album in sorted_albums %}{% assign artist = site.data.artists[album.artist].name %}{% include list_item.txt title=album.title info=artist index=forloop.index max_index=total_items %}{% endfor %}
+{% for album in sorted_albums %}{% assign artist = site.data.artists[album.artist].name %}{% unless artist %}{% assign artist = album.artist %}{% endunless %}{% include list_item.txt title=album.title info=artist index=forloop.index max_index=total_items %}{% endfor %}
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
