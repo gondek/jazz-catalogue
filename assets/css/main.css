@@ -6661,8 +6661,10 @@ h1 {
   .album-card img {
     margin: 0 auto;
     overflow: hidden;
-    transition: .5s;
+    transition: padding .5s, opacity 1.5s;
     width: 100%; }
+  .album-card .lazy-load {
+    opacity: 0; }
 
 .album-page h2 {
   font-size: 3.2em;
