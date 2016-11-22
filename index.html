@@ -8,9 +8,9 @@ layout: default
     <div class="album-card">
     <a href="{{ album.url | prepend: site.baseurl }}">
         <img class="lazy-load hide" data-src="{{ "/assets/covers/" | prepend: site.baseurl }}{{ album.slug }}.jpg" alt="Album cover for {{ album.title }}" />
-      <noscript>
-        <img src="{{ "/assets/covers/" | prepend: site.baseurl }}{{ album.slug }}.jpg" alt="Album cover for {{ album.title }}" />
-      </noscript>
+        <noscript>
+          <img src="{{ "/assets/covers/" | prepend: site.baseurl }}{{ album.slug }}.jpg" alt="Album cover for {{ album.title }}" />
+        </noscript>
     </a>
     </div>
   </div>
