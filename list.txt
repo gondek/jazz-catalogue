@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Nov 22, 2016)
+                  Alex's Music Collection (as of Nov 26, 2016)
 ================================================================================
 
 
@@ -49,21 +49,22 @@
 42 - Takin' Off                                                 (Herbie Hancock)
 43 - Tenor Madness                                               (Sonny Rollins)
 44 - The Black Saint and the Sinner Lady                        (Charles Mingus)
-45 - The Complete Sessions                               (Armstrong / Ellington)
-46 - The Sidewinder                                                 (Lee Morgan)
-47 - The Very Best of Frank Sinatra                              (Frank Sinatra)
-48 - Time Out                                                     (Dave Brubeck)
-49 - Waltz for Debby                                                (Bill Evans)
-50 - Workin' with the Miles Davis Quintet                          (Miles Davis)
+45 - The Blues and the Abstract Truth                            (Oliver Nelson)
+46 - The Complete Sessions                               (Armstrong / Ellington)
+47 - The Sidewinder                                                 (Lee Morgan)
+48 - The Very Best of Frank Sinatra                              (Frank Sinatra)
+49 - Time Out                                                     (Dave Brubeck)
+50 - Waltz for Debby                                                (Bill Evans)
+51 - Workin' with the Miles Davis Quintet                          (Miles Davis)
 
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-51 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
-52 - Kiki's Delivery Service                                  (Movie Soundtrack)
-53 - My Neighbor Totoro                                       (Movie Soundtrack)
-54 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
-55 - Sakamichi no Apollon                                   (TV Show Soundtrack)
-56 - SimCity 4                                           (Video Game Soundtrack)
-57 - Spirited Away                                            (Movie Soundtrack)
+52 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
+53 - Kiki's Delivery Service                                  (Movie Soundtrack)
+54 - My Neighbor Totoro                                       (Movie Soundtrack)
+55 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
+56 - Sakamichi no Apollon                                   (TV Show Soundtrack)
+57 - SimCity 4                                           (Video Game Soundtrack)
+58 - Spirited Away                                            (Movie Soundtrack)
 
