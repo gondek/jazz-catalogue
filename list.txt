@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Jun 04, 2017)
+                  Alex's Music Collection (as of Jun 29, 2017)
 ================================================================================
 
 
@@ -49,27 +49,29 @@
 42 - Somethin' Else                                        (Cannonball Adderley)
 43 - Song for My Father                                          (Horace Silver)
 44 - Sonny Side Up                                 (Gillespie / Rollins / Stitt)
-45 - Sunday at the Village Vanguard                                 (Bill Evans)
-46 - Takin' Off                                                 (Herbie Hancock)
-47 - Tenor Madness                                               (Sonny Rollins)
-48 - The Black Saint and the Sinner Lady                        (Charles Mingus)
-49 - The Blues and the Abstract Truth                            (Oliver Nelson)
-50 - The Complete Sessions                               (Armstrong / Ellington)
-51 - The Sidewinder                                                 (Lee Morgan)
-52 - Thelonious Monk with John Coltrane                    (Monk &amp; Coltrane)
-53 - Time Out                                                     (Dave Brubeck)
-54 - Waltz for Debby                                                (Bill Evans)
-55 - Workin' with the Miles Davis Quintet                          (Miles Davis)
+45 - Soul Station                                                  (Hank Mobley)
+46 - Straight, No Chaser                                       (Thelonious Monk)
+47 - Sunday at the Village Vanguard                                 (Bill Evans)
+48 - Takin' Off                                                 (Herbie Hancock)
+49 - Tenor Madness                                               (Sonny Rollins)
+50 - The Black Saint and the Sinner Lady                        (Charles Mingus)
+51 - The Blues and the Abstract Truth                            (Oliver Nelson)
+52 - The Complete Sessions                               (Armstrong / Ellington)
+53 - The Sidewinder                                                 (Lee Morgan)
+54 - Thelonious Monk with John Coltrane                    (Monk &amp; Coltrane)
+55 - Time Out                                                     (Dave Brubeck)
+56 - Waltz for Debby                                                (Bill Evans)
+57 - Workin' with the Miles Davis Quintet                          (Miles Davis)
 
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-56 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
-57 - Kiki's Delivery Service                                  (Movie Soundtrack)
-58 - Love                                                          (The Beatles)
-59 - My Neighbor Totoro                                       (Movie Soundtrack)
-60 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
-61 - Sakamichi no Apollon                                   (TV Show Soundtrack)
-62 - SimCity 4                                           (Video Game Soundtrack)
-63 - Spirited Away                                            (Movie Soundtrack)
+58 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
+59 - Kiki's Delivery Service                                  (Movie Soundtrack)
+60 - Love                                                          (The Beatles)
+61 - My Neighbor Totoro                                       (Movie Soundtrack)
+62 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
+63 - Sakamichi no Apollon                                   (TV Show Soundtrack)
+64 - SimCity 4                                           (Video Game Soundtrack)
+65 - Spirited Away                                            (Movie Soundtrack)
 
