@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Jun 29, 2017)
+                  Alex's Music Collection (as of Jul 21, 2017)
 ================================================================================
 
 
@@ -52,26 +52,27 @@
 45 - Soul Station                                                  (Hank Mobley)
 46 - Straight, No Chaser                                       (Thelonious Monk)
 47 - Sunday at the Village Vanguard                                 (Bill Evans)
-48 - Takin' Off                                                 (Herbie Hancock)
-49 - Tenor Madness                                               (Sonny Rollins)
-50 - The Black Saint and the Sinner Lady                        (Charles Mingus)
-51 - The Blues and the Abstract Truth                            (Oliver Nelson)
-52 - The Complete Sessions                               (Armstrong / Ellington)
-53 - The Sidewinder                                                 (Lee Morgan)
-54 - Thelonious Monk with John Coltrane                    (Monk &amp; Coltrane)
-55 - Time Out                                                     (Dave Brubeck)
-56 - Waltz for Debby                                                (Bill Evans)
-57 - Workin' with the Miles Davis Quintet                          (Miles Davis)
+48 - Sylva                                     (Snarky Puppy / Metropole Orkest)
+49 - Takin' Off                                                 (Herbie Hancock)
+50 - Tenor Madness                                               (Sonny Rollins)
+51 - The Black Saint and the Sinner Lady                        (Charles Mingus)
+52 - The Blues and the Abstract Truth                            (Oliver Nelson)
+53 - The Complete Sessions                               (Armstrong / Ellington)
+54 - The Sidewinder                                                 (Lee Morgan)
+55 - Thelonious Monk with John Coltrane                    (Monk &amp; Coltrane)
+56 - Time Out                                                     (Dave Brubeck)
+57 - Waltz for Debby                                                (Bill Evans)
+58 - Workin' with the Miles Davis Quintet                          (Miles Davis)
 
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-58 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
-59 - Kiki's Delivery Service                                  (Movie Soundtrack)
-60 - Love                                                          (The Beatles)
-61 - My Neighbor Totoro                                       (Movie Soundtrack)
-62 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
-63 - Sakamichi no Apollon                                   (TV Show Soundtrack)
-64 - SimCity 4                                           (Video Game Soundtrack)
-65 - Spirited Away                                            (Movie Soundtrack)
+59 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
+60 - Kiki's Delivery Service                                  (Movie Soundtrack)
+61 - Love                                                          (The Beatles)
+62 - My Neighbor Totoro                                       (Movie Soundtrack)
+63 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
+64 - Sakamichi no Apollon                                   (TV Show Soundtrack)
+65 - SimCity 4                                           (Video Game Soundtrack)
+66 - Spirited Away                                            (Movie Soundtrack)
 
