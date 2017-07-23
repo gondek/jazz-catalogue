@@ -83,6 +83,8 @@ h1 {
 .album-card {
   margin: 15px 0;
   min-height: 165px;
+  $hover-padding: 10px;
+  $hover-timing: .5s;
 
   @media (max-width: $screen-lg) {
     min-height: 213px;
@@ -94,14 +96,20 @@ h1 {
 
   a {
     display: block;
-    transition: .5s;
+    position: relative;
+    transition: $hover-timing;
   }
 
   a:hover {
     background: transparentize($retro-green, .5);
 
     img {
-      padding: 10px;
+      padding: $hover-padding;
+    }
+
+    .star {
+      bottom: $hover-padding;
+      right: $hover-padding;
     }
   }
 
@@ -114,6 +122,23 @@ h1 {
 
   .lazy-load {
     opacity: 0;
+  }
+
+  .star {
+    background: url('star.png');
+    background-size: cover;
+    bottom: 0;
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    transition: $hover-timing;
+    width: 40px;
+
+    @media (max-width: $screen-md) {
+      height: 70px;
+      width: 70px;
+    }
   }
 }
 
