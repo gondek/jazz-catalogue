@@ -4,10 +4,11 @@
                   Alex's Music Collection (as of {{ site.time | date: "%b %d, %Y" }})
 ================================================================================
 {% comment %}This is a raw file. See the generated one at http://jazz.gondek.ca/list.txt{% endcomment %}{% assign sorted_albums = (site.posts | sort: 'title') %}{% assign sorted_non_jazz = (site.data.non_jazz | sort: 'title') %}{% assign count_jazz = sorted_albums | size %}{% assign count_non_jazz = site.data.non_jazz | size %}{% assign total_items = count_jazz | plus: count_non_jazz %}
+* = Alex's Pick
 
 # Jazz Catalogue
 --------------------------------------------------------------------------------
-{% for album in sorted_albums %}{% assign artist = site.data.artists[album.artist].name %}{% unless artist %}{% assign artist = album.artist %}{% endunless %}{% include list_item.txt title=album.title info=artist index=forloop.index max_index=total_items %}{% endfor %}
+{% for album in sorted_albums %}{% assign artist = site.data.artists[album.artist].name %}{% unless artist %}{% assign artist = album.artist %}{% endunless %}{% include list_item.txt title=album.title info=artist index=forloop.index max_index=total_items starred=album.starred %}{% endfor %}
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------

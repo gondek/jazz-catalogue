@@ -14,7 +14,10 @@ layout: default
   <div class="row">
 
     <div class="col-md-3">
-      <img alt="Album cover for {{ page.title }}" src="{{ "/assets/covers/" | prepend: site.baseurl }}{{ page.slug }}.jpg" />
+      <div class="inner">
+        <img class="cover" alt="Album cover for {{ page.title }}" src="{{ "/assets/covers/" | prepend: site.baseurl }}{{ page.slug }}.jpg" />
+        {% if page.starred %}<span class="star"></span>{% endif %}
+      </div>
     </div>
 
     <div class="col-md-9">
