@@ -6708,6 +6708,10 @@ h1 {
   height: 25px;
   position: absolute;
   width: 100px; }
+  @media (max-width: 992px) {
+    .album-page .star {
+      margin: 1em auto;
+      position: static; } }
 
 .album-links {
   font-weight: bold;
