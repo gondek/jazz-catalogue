@@ -109,7 +109,7 @@ h1 {
 
     .star {
       bottom: $hover-padding;
-      right: $hover-padding;
+      left: $hover-padding;
     }
   }
 
@@ -125,20 +125,15 @@ h1 {
   }
 
   .star {
-    background: url('star.png');
+    background: url('pick.png');
     background-size: cover;
-    bottom: 0;
+    bottom: 10px;
     display: block;
-    height: 40px;
+    height: 25px;
+    left: 0;
     position: absolute;
-    right: 0;
     transition: $hover-timing;
-    width: 40px;
-
-    @media (max-width: $screen-md) {
-      height: 70px;
-      width: 70px;
-    }
+    width: 100px;
   }
 }
 
@@ -161,13 +156,32 @@ h1 {
     }
   }
 
-  img {
+  .album-summary {
+    font-size: 1.2em;
+    padding-top: 1em;
+  }
+
+  .cover {
     max-width: 300px;
     width: 100%;
   }
 
   @media (max-width: $screen-md) {
     text-align: center;
+  }
+
+  .inner {
+    position: relative;
+  }
+
+  .star {
+    background: url('pick.png');
+    background-size: cover;
+    bottom: 20px;
+    display: block;
+    height: 25px;
+    position: absolute;
+    width: 100px;
   }
 }
 
@@ -227,8 +241,16 @@ h1 {
     margin: 0 0 .2em;
   }
 
+  p {
+    margin-bottom: 1.5em;
+  }
+
+  .pick {
+    height: 1.5em;
+  }
+
   .resource {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
 
   .video-links {
