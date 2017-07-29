@@ -6653,11 +6653,15 @@ h1 {
       min-height: 0; } }
   .album-card a {
     display: block;
-    transition: .5s; }
+    position: relative;
+    transition: 0.5s; }
   .album-card a:hover {
     background: rgba(148, 186, 101, 0.5); }
     .album-card a:hover img {
       padding: 10px; }
+    .album-card a:hover .star {
+      bottom: 10px;
+      left: 10px; }
   .album-card img {
     margin: 0 auto;
     overflow: hidden;
@@ -6665,6 +6669,16 @@ h1 {
     width: 100%; }
   .album-card .lazy-load {
     opacity: 0; }
+  .album-card .star {
+    background: url("pick.png");
+    background-size: cover;
+    bottom: 10px;
+    display: block;
+    height: 25px;
+    left: 0;
+    position: absolute;
+    transition: 0.5s;
+    width: 100px; }
 
 .album-page h2 {
   font-size: 3.2em;
@@ -6675,12 +6689,25 @@ h1 {
   margin: 0 0 .5em .2em; }
   .album-page h3 a {
     color: #353432; }
-.album-page img {
+.album-page .album-summary {
+  font-size: 1.2em;
+  padding-top: 1em; }
+.album-page .cover {
   max-width: 300px;
   width: 100%; }
 @media (max-width: 992px) {
   .album-page {
     text-align: center; } }
+.album-page .inner {
+  position: relative; }
+.album-page .star {
+  background: url("pick.png");
+  background-size: cover;
+  bottom: 20px;
+  display: block;
+  height: 25px;
+  position: absolute;
+  width: 100px; }
 
 .album-links {
   font-weight: bold;
@@ -6719,8 +6746,12 @@ h1 {
   font-size: 1.2em;
   font-weight: 700;
   margin: 0 0 .2em; }
+.page p {
+  margin-bottom: 1.5em; }
+.page .pick {
+  height: 1.5em; }
 .page .resource {
-  margin-bottom: 2em; }
+  margin-bottom: 1em; }
 .page .video-links {
   padding: 10px 0 20px 30px; }
 
