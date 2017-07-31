@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Jul 29, 2017)
+                  Alex's Music Collection (as of Jul 31, 2017)
 ================================================================================
 
 * = Alex's Pick
@@ -10,7 +10,7 @@
 02 - Bags' Groove                                                  (Miles Davis)
 03 - Bird and Diz                                           (Parker / Gillespie)
 04 - Birth of the Cool                                             (Miles Davis)
-05 - Blowin' the Blues Away                                      (Horace Silver)
+05*- Blowin' the Blues Away                                      (Horace Silver)
 06 - Blue Train                                                  (John Coltrane)
 07 - Blues and Roots                                            (Charles Mingus)
 08*- Brilliant Corners                                         (Thelonious Monk)
@@ -23,7 +23,7 @@
 15 - Dizzy Gillespie at Newport                                (Dizzy Gillespie)
 16*- Doin' the Thing                                             (Horace Silver)
 17 - Duke Ellington Meets Coleman Hawkins                  (Ellington / Hawkins)
-18*- Earfood                                                      (Roy Hargrove)
+18 - Earfood                                                      (Roy Hargrove)
 19*- Ellington at Newport                                       (Duke Ellington)
 20 - Everybody Digs Bill Evans                                      (Bill Evans)
 21 - Giant Steps                                                 (John Coltrane)
