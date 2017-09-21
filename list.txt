@@ -70,13 +70,12 @@
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
 60 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
-61 - Galaxy News Radio                                   (Video Game Soundtrack)
+61 - Fallout Radio                                       (Video Game Soundtrack)
 62 - Kiki's Delivery Service                                  (Movie Soundtrack)
 63 - Love                                                          (The Beatles)
 64 - My Neighbor Totoro                                       (Movie Soundtrack)
 65 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
-66 - Radio New Vegas                                     (Video Game Soundtrack)
-67 - Sakamichi no Apollon                                   (TV Show Soundtrack)
-68 - SimCity 4                                           (Video Game Soundtrack)
-69 - Spirited Away                                            (Movie Soundtrack)
+66 - Sakamichi no Apollon                                   (TV Show Soundtrack)
+67 - SimCity 4                                           (Video Game Soundtrack)
+68 - Spirited Away                                            (Movie Soundtrack)
 
