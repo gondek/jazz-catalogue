@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="row">
-  {% assign sorted_albums = (site.posts | sort:'title') %}
+  {% assign sorted_albums = site.posts | sort:'title' %}
   {% for album in sorted_albums %}
   <div class="col-lg-2 col-md-3 col-xs-6">
     <div class="album-card">
