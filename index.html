@@ -10,9 +10,7 @@ layout: default
         <img class="lazy-load hide" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{ "/assets/covers/" | prepend: site.baseurl }}{{ album.slug }}.jpg" alt="Album cover for {{ album.title }}" />
         <noscript>
           <img src="{{ "/assets/covers/" | prepend: site.baseurl }}{{ album.slug }}.jpg" alt="Album cover for {{ album.title }}" />
-          {% if album.starred %}<span class="star"></span>{% endif %}
         </noscript>
-        {% if album.starred %}<span class="star lazy-load"></span>{% endif %}
     </a>
     </div>
   </div>
