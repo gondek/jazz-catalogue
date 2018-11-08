@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Sep 10, 2018)
+                  Alex's Music Collection (as of Nov 08, 2018)
 ================================================================================
 
 # Jazz Catalogue
@@ -73,18 +73,19 @@
 67 - Time Out                                                     (Dave Brubeck)
 68 - Travelin' On (Exclusively for My Friends, Vol. 6)          (Oscar Peterson)
 69 - Waltz for Debby                                                (Bill Evans)
-70 - Workin' with the Miles Davis Quintet                          (Miles Davis)
+70 - We Like It Here                                              (Snarky Puppy)
+71 - Workin' with the Miles Davis Quintet                          (Miles Davis)
 
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-71 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
-72 - Fallout Radio                                       (Video Game Soundtrack)
-73 - Kiki's Delivery Service                                  (Movie Soundtrack)
-74 - Love                                                          (The Beatles)
-75 - My Neighbor Totoro                                       (Movie Soundtrack)
-76 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
-77 - Sakamichi no Apollon                                   (TV Show Soundtrack)
-78 - SimCity 4                                           (Video Game Soundtrack)
-79 - Spirited Away                                            (Movie Soundtrack)
+72 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
+73 - Fallout Radio                                       (Video Game Soundtrack)
+74 - Kiki's Delivery Service                                  (Movie Soundtrack)
+75 - Love                                                          (The Beatles)
+76 - My Neighbor Totoro                                       (Movie Soundtrack)
+77 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
+78 - Sakamichi no Apollon                                   (TV Show Soundtrack)
+79 - SimCity 4                                           (Video Game Soundtrack)
+80 - Spirited Away                                            (Movie Soundtrack)
 
