@@ -36,9 +36,3 @@ echo "[TASK] Checking HTML ----------------------------------------------------"
 htmlproofer --assume-extension --check-html --http-status-ignore "403" --url-ignore "/.*https:\/\/(jekyllrb)|(pages\.github).com.*/" ./_site
 echo "[PASS] Site markup and links passed validation --------------------------"
 echo
-
-# are all the youtube links still available?
-echo "[TASK] Checking Youtube Links -------------------------------------------"
-./_scripts/check_youtube.sh
-echo "[PASS] All youtube links are working ------------------------------------"
-echo

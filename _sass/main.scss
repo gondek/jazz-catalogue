@@ -8,7 +8,6 @@ $off-white: #e9e9e9;
 $retro-green: #94ba65;
 
 $allmusic-blue: #25aae1;
-$youtube-red: #b31217;
 $wikipedia-black: #111;
 
 $screen-sm: 768px;
@@ -217,10 +216,6 @@ h1 {
     &:hover {
       background: $base-color;
     }
-  }
-
-  .youtube {
-    @include make-album-link($youtube-red);
   }
 
   .wikipedia {
