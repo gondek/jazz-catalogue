@@ -6728,11 +6728,6 @@ h1 {
     padding: 4px 7px;
     text-decoration: none;
     transition: .3s; }
-  .album-links .youtube {
-    background: #bf8d8e;
-    text-shadow: #b31217; }
-    .album-links .youtube:hover {
-      background: #b31217; }
   .album-links .wikipedia {
     background: #7d7d7d;
     text-shadow: #111; }
