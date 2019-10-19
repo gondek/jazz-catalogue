@@ -6,3 +6,4 @@ Gemfile.lock
 tmp
 *.jpg_original
 npm-debug.log
+.jekyll-cache
