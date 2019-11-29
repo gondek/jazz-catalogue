@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Nov 07, 2019)
+                  Alex's Music Collection (as of Nov 29, 2019)
 ================================================================================
 
 # Jazz Catalogue
@@ -74,25 +74,26 @@
 68 - The Black Saint and the Sinner Lady                        (Charles Mingus)
 69 - The Blues and the Abstract Truth                            (Oliver Nelson)
 70 - The Complete Sessions                               (Armstrong / Ellington)
-71 - The Köln Concert                                            (Keith Jarrett)
-72 - The Sidewinder                                                 (Lee Morgan)
-73 - Thelonious Monk with John Coltrane                        (Monk & Coltrane)
-74 - Time Out                                                     (Dave Brubeck)
-75 - Travelin' On (Exclusively for My Friends, Vol. 6)          (Oscar Peterson)
-76 - Waltz for Debby                                                (Bill Evans)
-77 - We Like It Here                                              (Snarky Puppy)
-78 - Workin' with the Miles Davis Quintet                          (Miles Davis)
+71 - The Jazz Soul of Oscar Peterson                            (Oscar Peterson)
+72 - The Köln Concert                                            (Keith Jarrett)
+73 - The Sidewinder                                                 (Lee Morgan)
+74 - Thelonious Monk with John Coltrane                        (Monk & Coltrane)
+75 - Time Out                                                     (Dave Brubeck)
+76 - Travelin' On (Exclusively for My Friends, Vol. 6)          (Oscar Peterson)
+77 - Waltz for Debby                                                (Bill Evans)
+78 - We Like It Here                                              (Snarky Puppy)
+79 - Workin' with the Miles Davis Quintet                          (Miles Davis)
 
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-79 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
-80 - Fallout Radio                                       (Video Game Soundtrack)
-81 - Kiki's Delivery Service                                  (Movie Soundtrack)
-82 - Love                                                          (The Beatles)
-83 - My Neighbor Totoro                                       (Movie Soundtrack)
-84 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
-85 - Sakamichi no Apollon                                   (TV Show Soundtrack)
-86 - SimCity 4                                           (Video Game Soundtrack)
-87 - Spirited Away                                            (Movie Soundtrack)
+80 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
+81 - Fallout Radio                                       (Video Game Soundtrack)
+82 - Kiki's Delivery Service                                  (Movie Soundtrack)
+83 - Love                                                          (The Beatles)
+84 - My Neighbor Totoro                                       (Movie Soundtrack)
+85 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
+86 - Sakamichi no Apollon                                   (TV Show Soundtrack)
+87 - SimCity 4                                           (Video Game Soundtrack)
+88 - Spirited Away                                            (Movie Soundtrack)
 
