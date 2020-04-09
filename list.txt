@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Mar 31, 2020)
+                  Alex's Music Collection (as of Apr 09, 2020)
 ================================================================================
 
 # Jazz Catalogue
@@ -77,29 +77,30 @@
 71 - Sylva                                     (Snarky Puppy / Metropole Orkest)
 72 - Takin' Off                                                 (Herbie Hancock)
 73 - Tenor Madness                                               (Sonny Rollins)
-74 - The Black Saint and the Sinner Lady                        (Charles Mingus)
-75 - The Blues and the Abstract Truth                            (Oliver Nelson)
-76 - The Complete Sessions                               (Armstrong / Ellington)
-77 - The Jazz Soul of Oscar Peterson                            (Oscar Peterson)
-78 - The Köln Concert                                            (Keith Jarrett)
-79 - The Sidewinder                                                 (Lee Morgan)
-80 - Thelonious Monk with John Coltrane                        (Monk & Coltrane)
-81 - Time Out                                                     (Dave Brubeck)
-82 - Travelin' On (Exclusively for My Friends, Vol. 6)          (Oscar Peterson)
-83 - Waltz for Debby                                                (Bill Evans)
-84 - We Like It Here                                              (Snarky Puppy)
-85 - Workin' with the Miles Davis Quintet                          (Miles Davis)
+74 - The Apartment                                               (Dexter Gordon)
+75 - The Black Saint and the Sinner Lady                        (Charles Mingus)
+76 - The Blues and the Abstract Truth                            (Oliver Nelson)
+77 - The Complete Sessions                               (Armstrong / Ellington)
+78 - The Jazz Soul of Oscar Peterson                            (Oscar Peterson)
+79 - The Köln Concert                                            (Keith Jarrett)
+80 - The Sidewinder                                                 (Lee Morgan)
+81 - Thelonious Monk with John Coltrane                        (Monk & Coltrane)
+82 - Time Out                                                     (Dave Brubeck)
+83 - Travelin' On (Exclusively for My Friends, Vol. 6)          (Oscar Peterson)
+84 - Waltz for Debby                                                (Bill Evans)
+85 - We Like It Here                                              (Snarky Puppy)
+86 - Workin' with the Miles Davis Quintet                          (Miles Davis)
 
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-86 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
-87 - Fallout Radio                                       (Video Game Soundtrack)
-88 - Kiki's Delivery Service                                  (Movie Soundtrack)
-89 - Love                                                          (The Beatles)
-90 - My Neighbor Totoro                                       (Movie Soundtrack)
-91 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
-92 - Sakamichi no Apollon                                   (TV Show Soundtrack)
-93 - SimCity 4                                           (Video Game Soundtrack)
-94 - Spirited Away                                            (Movie Soundtrack)
+87 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
+88 - Fallout Radio                                       (Video Game Soundtrack)
+89 - Kiki's Delivery Service                                  (Movie Soundtrack)
+90 - Love                                                          (The Beatles)
+91 - My Neighbor Totoro                                       (Movie Soundtrack)
+92 - Ponyo on the Cliff by the Sea                            (Movie Soundtrack)
+93 - Sakamichi no Apollon                                   (TV Show Soundtrack)
+94 - SimCity 4                                           (Video Game Soundtrack)
+95 - Spirited Away                                            (Movie Soundtrack)
 
