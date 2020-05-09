@@ -2,8 +2,8 @@ title: Alex's Jazz Catalogue
 description: >
   Alex Gondek's jazz collection and list of recommended books, movies and videos.
 baseurl: ""
-url: "http://jazz.gondek.ca"
-alex_url: "http://alex.gondek.ca"
+url: "https://jazz.gondek.ca"
+alex_url: "https://alex.gondek.ca"
 repo_url: "https://github.com/gondek/jazz-catalogue"
 permalink: "/:title"
 exclude: ['README.md', 'vendor', 'Gemfile', 'CNAME']
