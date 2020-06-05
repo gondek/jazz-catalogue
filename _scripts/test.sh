@@ -33,6 +33,6 @@ echo
 
 # does the site HTML validate?
 echo "[TASK] Checking HTML ----------------------------------------------------"
-htmlproofer --assume-extension --check-html --http-status-ignore "403" --url-ignore "/.*https:\/\/(jekyllrb)|(pages\.github).com.*/" ./_site
+htmlproofer --assume-extension --check-html --http-status-ignore "403" --url-ignore "/.*https:\/\/(jekyllrb)|(pages\.github)|(allmusic).com.*/" ./_site
 echo "[PASS] Site markup and links passed validation --------------------------"
 echo
