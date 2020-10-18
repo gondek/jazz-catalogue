@@ -5,8 +5,6 @@ cd `dirname $0`/../
 
 # does the site build?
 echo "[TASK] Building site ----------------------------------------------------"
-# change the config so HTML validation checks against local links
-sed -i "s,url: \"http://jazz.gondek.ca\",url: \"\"," _config.yml
 ./_scripts/build.sh >/dev/null
 git checkout _config.yml
 echo "[PASS] Site built correctly! --------------------------------------------"
@@ -33,6 +31,6 @@ echo
 
 # does the site HTML validate?
 echo "[TASK] Checking HTML ----------------------------------------------------"
-htmlproofer --assume-extension --check-html --http-status-ignore "403" --url-ignore "/.*https:\/\/(jekyllrb)|(pages\.github)|(allmusic).com.*/" ./_site
+bundle exec htmlproofer --assume-extension --check-html --http-status-ignore "403" --url-ignore "/.*https:\/\/(jekyllrb)|(pages\.github)|(allmusic).com.*/" ./_site
 echo "[PASS] Site markup and links passed validation --------------------------"
 echo
