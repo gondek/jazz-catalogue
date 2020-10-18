@@ -11,6 +11,7 @@ fi
 
 MSG=$(git log --format=%B -n 1 HEAD)
 git checkout gh-pages
+git pull
 cp -r _site/* .
 git add -A
 git commit -m "$MSG"
