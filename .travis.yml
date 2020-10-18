@@ -4,7 +4,7 @@ cache:
   directories:
     - /home/travis/.rvm/
 rvm:
-- 2.4.0
+- 2.5
 
 branches:
   only:
