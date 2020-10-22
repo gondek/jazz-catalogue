@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Oct 18, 2020)
+                  Alex's Music Collection (as of Oct 21, 2020)
 ================================================================================
 
 # Jazz Catalogue
@@ -90,23 +90,24 @@
 084 - The Köln Concert                                           (Keith Jarrett)
 085 - The Original Misty                                         (Erroll Garner)
 086 - The Sidewinder                                                (Lee Morgan)
-087 - Thelonious Monk with John Coltrane                       (Monk & Coltrane)
-088 - Time Out                                                    (Dave Brubeck)
-089 - Travelin' On (Exclusively for My Friends, Vol. 6)         (Oscar Peterson)
-090 - Waltz for Debby                                               (Bill Evans)
-091 - We Like It Here                                             (Snarky Puppy)
-092 - Workin' with the Miles Davis Quintet                         (Miles Davis)
+087 - Thelonious Monk and Sonny Rollins      (Thelonious Monk and Sonny Rollins)
+088 - Thelonious Monk with John Coltrane                       (Monk & Coltrane)
+089 - Time Out                                                    (Dave Brubeck)
+090 - Travelin' On (Exclusively for My Friends, Vol. 6)         (Oscar Peterson)
+091 - Waltz for Debby                                               (Bill Evans)
+092 - We Like It Here                                             (Snarky Puppy)
+093 - Workin' with the Miles Davis Quintet                         (Miles Davis)
 
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-093 - Buena Vista Social Club (1997)                   (Buena Vista Social Club)
-094 - Fallout Radio                                      (Video Game Soundtrack)
-095 - Kiki's Delivery Service                                 (Movie Soundtrack)
-096 - Love                                                         (The Beatles)
-097 - My Neighbor Totoro                                      (Movie Soundtrack)
-098 - Ponyo on the Cliff by the Sea                           (Movie Soundtrack)
-099 - Sakamichi no Apollon                                  (TV Show Soundtrack)
-100 - SimCity 4                                          (Video Game Soundtrack)
-101 - Spirited Away                                           (Movie Soundtrack)
+094 - Buena Vista Social Club (1997)                   (Buena Vista Social Club)
+095 - Fallout Radio                                      (Video Game Soundtrack)
+096 - Kiki's Delivery Service                                 (Movie Soundtrack)
+097 - Love                                                         (The Beatles)
+098 - My Neighbor Totoro                                      (Movie Soundtrack)
+099 - Ponyo on the Cliff by the Sea                           (Movie Soundtrack)
+100 - Sakamichi no Apollon                                  (TV Show Soundtrack)
+101 - SimCity 4                                          (Video Game Soundtrack)
+102 - Spirited Away                                           (Movie Soundtrack)
 
