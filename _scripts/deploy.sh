@@ -10,9 +10,12 @@ if [[ \"`git status --porcelain`\" != \"\" ]]; then
 fi
 
 MSG=$(git log --format=%B -n 1 HEAD)
+echo "Using message: $MSG"
 git checkout gh-pages
 git pull
+echo "Copying generate files to root"
 cp -r _site/* .
+echo "Adding all files and committing"
 git add -A
 git commit -m "$MSG"
 echo -e "Site files commited! Pushing: ....\n\n"
