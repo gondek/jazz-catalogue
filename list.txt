@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Feb 19, 2022)
+                  Alex's Music Collection (as of Sep 28, 2022)
 ================================================================================
 
 # Jazz Catalogue
@@ -84,23 +84,24 @@
 78 - The Black Saint and the Sinner Lady                        (Charles Mingus)
 79 - The Blues and the Abstract Truth                            (Oliver Nelson)
 80 - The Complete Sessions                               (Armstrong / Ellington)
-81 - The Jazz Soul of Oscar Peterson                            (Oscar Peterson)
-82 - The Original Misty                                          (Erroll Garner)
-83 - The Sidewinder                                                 (Lee Morgan)
-84 - Thelonious Monk and Sonny Rollins       (Thelonious Monk and Sonny Rollins)
-85 - Thelonious Monk with John Coltrane                        (Monk & Coltrane)
-86 - This Here Is Bobby Timmons                                  (Bobby Timmons)
-87 - Time Out                                                     (Dave Brubeck)
-88 - Travelin' On (Exclusively for My Friends, Vol. 6)          (Oscar Peterson)
-89 - Waltz for Debby                                                (Bill Evans)
-90 - We Like It Here                                              (Snarky Puppy)
-91 - Workin' with the Miles Davis Quintet                          (Miles Davis)
+81 - The Great Paris Concert                                    (Duke Ellington)
+82 - The Jazz Soul of Oscar Peterson                            (Oscar Peterson)
+83 - The Original Misty                                          (Erroll Garner)
+84 - The Sidewinder                                                 (Lee Morgan)
+85 - Thelonious Monk and Sonny Rollins       (Thelonious Monk and Sonny Rollins)
+86 - Thelonious Monk with John Coltrane                        (Monk & Coltrane)
+87 - This Here Is Bobby Timmons                                  (Bobby Timmons)
+88 - Time Out                                                     (Dave Brubeck)
+89 - Travelin' On (Exclusively for My Friends, Vol. 6)          (Oscar Peterson)
+90 - Waltz for Debby                                                (Bill Evans)
+91 - We Like It Here                                              (Snarky Puppy)
+92 - Workin' with the Miles Davis Quintet                          (Miles Davis)
 
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-92 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
-93 - Fallout Radio                                       (Video Game Soundtrack)
-94 - Love                                                          (The Beatles)
-95 - SimCity 4                                           (Video Game Soundtrack)
+93 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
+94 - Fallout Radio                                       (Video Game Soundtrack)
+95 - Love                                                          (The Beatles)
+96 - SimCity 4                                           (Video Game Soundtrack)
 
