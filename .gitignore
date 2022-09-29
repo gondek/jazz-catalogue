@@ -6,3 +6,4 @@ Gemfile.lock
 tmp
 npm-debug.log
 .jekyll-cache
+.idea

@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-cd `dirname $0`/../
+cd "$(dirname "$0")/../"
 
 # does the site build?
 echo "[TASK] Building site ----------------------------------------------------"
@@ -31,6 +31,6 @@ echo
 
 # does the site HTML validate?
 echo "[TASK] Checking HTML ----------------------------------------------------"
-bundle exec htmlproofer --assume-extension --check-html --http-status-ignore "403" --url-ignore "/.*https:\/\/(jekyllrb)|(pages\.github)|(allmusic).com.*/" ./_site
+bundle exec htmlproofer --assume-extension --internal-domains --check-html --ignore-status-codes "403" --ignore-urls "/.*https:\/\/(jekyllrb)|(pages\.github)|(allmusic).com.*/" ./_site
 echo "[PASS] Site markup and links passed validation --------------------------"
 echo
