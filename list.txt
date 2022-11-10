@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Oct 14, 2022)
+                  Alex's Music Collection (as of Nov 09, 2022)
 ================================================================================
 
 # Jazz Catalogue
@@ -83,26 +83,28 @@
 77 - The Apartment                                               (Dexter Gordon)
 78 - The Black Saint and the Sinner Lady                        (Charles Mingus)
 79 - The Blues and the Abstract Truth                            (Oliver Nelson)
-80 - The Complete Sessions                               (Armstrong / Ellington)
-81 - The Great Paris Concert                                    (Duke Ellington)
-82 - The Jazz Soul of Oscar Peterson                            (Oscar Peterson)
-83 - The Original Misty                                          (Erroll Garner)
-84 - The Sidewinder                                                 (Lee Morgan)
-85 - Thelonious Monk and Sonny Rollins       (Thelonious Monk and Sonny Rollins)
-86 - Thelonious Monk with John Coltrane                        (Monk & Coltrane)
-87 - This Here Is Bobby Timmons                                  (Bobby Timmons)
-88 - Time Further Out                                             (Dave Brubeck)
-89 - Time Out                                                     (Dave Brubeck)
-90 - Travelin' On (Exclusively for My Friends, Vol. 6)          (Oscar Peterson)
-91 - Waltz for Debby                                                (Bill Evans)
-92 - We Like It Here                                              (Snarky Puppy)
-93 - Workin' with the Miles Davis Quintet                          (Miles Davis)
+80 - The Cats (Tommy Flanagan, John Coltrane, Kenny Burrell and Idrees Sulieman)
+81 - The Complete RCA Victor Recordings                        (Dizzy Gillespie)
+82 - The Complete Sessions                               (Armstrong / Ellington)
+83 - The Great Paris Concert                                    (Duke Ellington)
+84 - The Jazz Soul of Oscar Peterson                            (Oscar Peterson)
+85 - The Original Misty                                          (Erroll Garner)
+86 - The Sidewinder                                                 (Lee Morgan)
+87 - Thelonious Monk and Sonny Rollins       (Thelonious Monk and Sonny Rollins)
+88 - Thelonious Monk with John Coltrane                        (Monk & Coltrane)
+89 - This Here Is Bobby Timmons                                  (Bobby Timmons)
+90 - Time Further Out                                             (Dave Brubeck)
+91 - Time Out                                                     (Dave Brubeck)
+92 - Travelin' On (Exclusively for My Friends, Vol. 6)          (Oscar Peterson)
+93 - Waltz for Debby                                                (Bill Evans)
+94 - We Like It Here                                              (Snarky Puppy)
+95 - Workin' with the Miles Davis Quintet                          (Miles Davis)
 
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-94 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
-95 - Fallout Radio                                       (Video Game Soundtrack)
-96 - Love                                                          (The Beatles)
-97 - SimCity 4                                           (Video Game Soundtrack)
+96 - Buena Vista Social Club (1997)                    (Buena Vista Social Club)
+97 - Fallout Radio                                       (Video Game Soundtrack)
+98 - Love                                                          (The Beatles)
+99 - SimCity 4                                           (Video Game Soundtrack)
 
