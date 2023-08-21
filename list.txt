@@ -1,5 +1,5 @@
 ================================================================================
-                  Alex's Music Collection (as of Jul 19, 2023)
+                  Alex's Music Collection (as of Aug 20, 2023)
 ================================================================================
 
 # Jazz Catalogue
@@ -109,10 +109,11 @@
 
 # Other (Non-Jazz) Albums
 --------------------------------------------------------------------------------
-102 - Buena Vista Social Club (1997)                   (Buena Vista Social Club)
-103 - Chanchullo                                                (Rubén González)
-104 - Fallout Radio                                      (Video Game Soundtrack)
-105 - Introducing...Rubén González                              (Rubén González)
-106 - Love                                                         (The Beatles)
-107 - SimCity 4                                          (Video Game Soundtrack)
+102 - A Toda Cuba Le Gusta                                (Afro-Cuban All Stars)
+103 - Buena Vista Social Club (1997)                   (Buena Vista Social Club)
+104 - Chanchullo                                                (Rubén González)
+105 - Fallout Radio                                      (Video Game Soundtrack)
+106 - Introducing...Rubén González                              (Rubén González)
+107 - Love                                                         (The Beatles)
+108 - SimCity 4                                          (Video Game Soundtrack)
 
